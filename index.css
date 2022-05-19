@@ -1,0 +1,172 @@
+
+/***********************************************************
+■ Basic : 기본
+************************************************************/
+*{margin: 0; padding: 0; }
+ul,ol,li{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+
+
+/***********************************************************
+■ Layout : 레이아웃
+************************************************************/
+
+#thema_wrapper{
+    width: 100%;
+}
+
+#At-header{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 200, 47);   
+    /* background-image: url(img/index/ｂｇ.png); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header_inner{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255,0.6);
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.header_inner img{
+    width: 150px;
+    height: 100%;
+
+}
+
+.navbar_menu ul{
+    display: flex;
+}
+
+.navbar_menu li{
+    padding: 8px 20px;;
+    font-weight: bold;
+    
+}
+
+.navbar_icons{
+    display: flex;
+}
+
+.navbar_icons li{
+    padding: 10px 12px;
+}
+
+#header_main{
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+#header_main>.text_wrap{
+    width: 100%;
+    height: 900px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+#header_main>.text_wrap h3{
+    max-width: 100%;
+    height: 50px;
+    margin: 200px 0 0 150px;
+}
+
+#header_main>.text_wrap h1{
+    max-width: 100%;
+    height: 190px;
+    font-size: 60px;
+    margin: 100px 0 0 150px;
+    
+}
+
+#header_main>.text_wrap p{
+    max-width: 100%;
+    height: 50px;
+    margin: 0 0 0 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid beige;
+}
+
+#header_slider img{
+    max-width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    margin-left:800px;
+    margin-top: -500px;
+}
+
+#main{
+    box-sizing: border-box;
+}
+
+
+.main_1{
+    height: 800px;
+    background-color: black;
+}
+
+.inner{ 
+    max-width: 1500px; 
+    height: 100%;
+    background-color: 
+    rgb(190, 190, 190); height: 800px;
+    margin: 0 auto;
+}
+
+.main_1 .inner{ 
+    max-width: 1500px; background-color: 
+    rgb(190, 190, 190); height: 800px;
+    margin: 0 auto;
+}
+
+.sub_1{
+    height: 800px;
+    background-color: rgb(100, 83, 83);
+}
+
+.sub_2{
+    height: 800px;
+    background-color: rgb(180, 99, 99);
+}
+
+.sub_3{
+    height: 800px;
+    background-color: rgb(63, 184, 85);
+}
+
+.sub_4{
+    height: 800px;
+    background-color: rgb(104, 206, 26);
+}
+
+.sub_5{
+    height: 800px;
+    background-color: rgb(79, 111, 169);
+}
+
+.sub_6{
+    height: 800px;
+    background-color: rgb(102, 31, 128);
+}
+
+.sub_7{
+    height: 800px;
+    background-color: rgb(241, 126, 26);
+}
+
+footer{
+    width: 100%;
+}
+#footer{
+    
+}
