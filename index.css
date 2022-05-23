@@ -4,7 +4,7 @@
 ************************************************************/
 *{margin: 0; padding: 0; }
 ul,ol,li{margin: 0; padding: 0; list-style: none;}
-a{text-decoration: none;}
+a{text-decoration: none; color: #26282B;}
 
 
 
@@ -18,32 +18,40 @@ a{text-decoration: none;}
 
 #At-header{
     width: 100%;
-    height: 900px;
-    background-color: rgb(255, 200, 47);   
-    /* background-image: url(img/index/ｂｇ.png); */
+    height: 1100px;
+    /* background-color: rgb(140, 166, 196);    */
+    /* background-image: url(img/index/bg_on.png);  */
     background-repeat: no-repeat;
     background-size: 100%;
+    position: relative;
+}
+#At-header >.bg_on{
+    position: absolute;
+    width: 100%;
+    height: 1100px;
 }
 
 .header_inner{
     position: fixed;
     width: 100%;
-    height: 80px;
-    background-color: rgb(255, 255, 255,0.6);
+    height: 60px;
+    background-color: rgb(255, 255, 255,0.7);
     display: flex;
     justify-content:space-around; 
     align-items: center;
     padding: 8px 12px;
+    
 }
 
-.header_inner img{
-    width: 150px;
+.logo img{
     height: 100%;
-
-}
+    width: 150px;
+    
+ }
 
 .navbar_menu ul{
     display: flex;
+    
 }
 
 .navbar_menu li{
@@ -68,76 +76,255 @@ a{text-decoration: none;}
 }
 
 #header_main>.text_wrap{
-    width: 100%;
-    height: 900px;
-    border: 2px solid black;
-    margin: 0 auto;
+    width: 1300px;
+    height: 100%
+   
 }
 
-#header_main>.text_wrap h3{
+.text_wrap>.large{
+    position: absolute;
     max-width: 100%;
-    height: 50px;
-    margin: 200px 0 0 150px;
+    height: 500px;
+    /* border: 2px solid black; */
+    margin: 550px auto;
+    text-align: center;
 }
 
-#header_main>.text_wrap h1{
-    max-width: 100%;
-    height: 190px;
-    font-size: 60px;
-    margin: 100px 0 0 150px;
-    
-}
 
-#header_main>.text_wrap p{
-    max-width: 100%;
-    height: 50px;
-    margin: 0 0 0 150px;
-    font-size: 15px;
+.text_wrap>.large>h1{
+    font-size: 100px;
     font-weight: bold;
-    border: 1px solid beige;
+    margin: 10px auto;
+    color: rgba(255, 255, 255, 0.9);
+    /* position: fixed; */
 }
 
-#header_slider img{
-    max-width: 100%;
-    height: 300px;
-    border: 1px solid black;
-    margin-left:800px;
-    margin-top: -500px;
-}
-
-#main{
-    box-sizing: border-box;
+.text_wrap>.large>p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
 }
 
 
-.main_1{
-    height: 800px;
-    background-color: black;
-}
+
+
+/*******************공통 inner***************/
 
 .inner{ 
     max-width: 1500px; 
     height: 100%;
-    background-color: 
-    rgb(190, 190, 190); height: 800px;
+    border: 1px solid white; 
     margin: 0 auto;
+    
 }
 
-.main_1 .inner{ 
-    max-width: 1500px; background-color: 
-    rgb(190, 190, 190); height: 800px;
+/*******************Why_Yogibo***************/
+
+
+#main{
+    box-sizing: border-box;
+    background-color: #26282B;
+}
+
+
+.Why_Yogibo .inner{ 
+    background-color: #272727; 
+    background-color: #26282B;
+    height: 500px;
     margin: 0 auto;
+
 }
 
-.sub_1{
-    height: 800px;
-    background-color: rgb(100, 83, 83);
+.Why_Yogibo h1{
+    max-width: 100%;
+    /* border: 1px solid beige; */
+    font-size: 50px;
+    padding: 80px 0 0 100px;
+    color: #58b5ca; 
+    
+    
 }
 
-.sub_2{
-    height: 800px;
-    background-color: rgb(180, 99, 99);
+.Why_Yogibo h3{
+    margin: 20px 0 0 100px;
+    color: #b5c0c4; 
+    font-size: 15px;
+    
 }
+
+.Why_Yogibo ul{
+    display: flex;
+    /* border: 1px solid saddlebrown; */
+    padding: 50px 0px;
+    width: 1000px;
+    margin: 0 auto;
+    color: #58b5ca; 
+    
+}
+
+.Why_Yogibo li{
+
+    font-size: 20px;
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+/** list 문자와 list 이미지 간격 조정**/
+.Why_Yogibo li span img{ width: 30px; padding: 30px 50px 0 50px;}
+
+.Why_Yogibo .data_down_1{margin-top: 80px;}
+.Why_Yogibo .data_down_2{margin-top: 80px;}
+
+.Why_Yogibo img{width: 100%;}
+
+
+/*******************ADVANTAGE***************/
+.advantage{
+    height: 1000px;
+    max-width: 100%;
+    background-image: url(img/index/page_bg1.PNG);
+
+}
+
+.advantage .advantage_page{
+    max-width: 100%;
+    height: 800px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.advantage_page .page1{
+    width: 300px;
+    height: 100%;
+   
+    color: white;
+}
+
+.advantage_page .page1 h1{
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 0;
+    font-size: 35px;
+}
+
+.advantage_page .page1 p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 40px;
+    
+    
+}
+.advantage_page .page2{
+    width: 850px;
+    height: 100%;
+    
+}
+
+.advantage_page .page2 h2{
+    width: 100%;
+    height: 50px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+
+.advantage_page .page2 #starwars{
+    position: absolute;
+    margin-left: 50px;
+}
+
+.advantage_page .page3{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advantage_page .page3 img{
+    margin: 30px auto;
+}
+
+
+
+/*******************Yogibo_space***************/
+.yogibo_space{
+    height: 1100px;
+    background-color:#58b5ca;
+}
+
+.yogibo_space #tab_wrab{
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid blue; */
+    display: flex;
+    color: white;
+   
+}
+
+#tab_wrab .swiper_container{
+    width: 400px;
+    height: 100%;
+    /* border: 5px solid saddlebrown; */
+    color: white;
+    
+}
+
+#tab_wrab .swiper_container h1{
+    max-width: 100%;
+    height: 50px;
+    /* border: 5px solid white; */
+    text-align: center;
+    margin-top: 170px;
+    font-size: 35px;
+}
+
+
+
+#tab_wrab .swiper_container ul{
+    margin: 120px 120px;
+}
+
+#tab_wrab .swiper_container button{
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  border: none;
+    
+ }
+
+#tab_wrab .tab_content{
+    max-width: 100%;
+    height: 100%;
+   
+    
+}
+
+.tab_content .home{
+    display: flex;
+}
+
+.tab_content .home >.content{
+    width: 500px;
+    height: 500px;
+    /* border: 5px solid wheat; */
+    margin: 20px;
+}
+
+.tab_content .content img{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 .sub_3{
     height: 800px;
