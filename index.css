@@ -357,7 +357,7 @@ a{text-decoration: none; color: #26282B;}
 
 
 .our_bestsellers{
-    height: 800px;
+    height: 1100px;
     background-color: rgb(63, 184, 85);
 }
 
@@ -365,7 +365,7 @@ a{text-decoration: none; color: #26282B;}
     max-width: 100%;
     height: 50px;
     margin: 150px 0 0 100px;
-    font-size: 30px;
+    font-size: 35px;
     /* border: 2px solid black; */
 }
 .our_bestsellers p{
@@ -377,27 +377,47 @@ a{text-decoration: none; color: #26282B;}
 
 #our_container{
     max-width: 100%;
-    height: 100%;
-    border: 1px solid beige;
-    overflow: hidden; /*컨텐츠 컨테이너*/
+    max-height: 100%;
+    /* border: 1px solid beige; */
+    overflow: hidden; 
 }
+
+#our_container>#step{
+    width: 100%;
+    text-align: right;
+    margin-top: 50px ;
+    margin: 0 -100px;
+}
+
+#step > span { font-size: 38px; color:#fff; line-height: 40px; ;
+        background: rgba(184, 184, 184, 0.6); cursor: pointer;  
+        transform: translateY(-50%); max-width: 100%;
+     }
+    
+#step> span:hover {background: rgba(255,255,255,0.8); color:#000;}
+
+#step >.prev { padding: 5px; margin: 10px;}
+    
+#step >.next { padding:5px;}
 
 #our_container >#our_slide_wrab{ 
     display: flex;
     align-items: center;
     justify-content: center;
+
     /* max-width: 324px; */
-    width: 3000px;              /*컨텐츠 컨테이너 최대 넓이*/
-    border: 2px solid;
+    width: 1875px;              /*컨텐츠 컨테이너 최대 넓이*/
+    /* border: 2px solid; */
     box-sizing:border-box;
-    margin: 50px;
+    margin: 50px 0;
 }
 #our_slide_wrab li{
-    border: 2px solid saddlebrown;
-    width:  400px;              /*컨텐츠 슬라이드 넓이*/
+    /* border: 2px solid saddlebrown; */
+    width:  20%;              /*컨텐츠 슬라이드 넓이*/
     height: 400px;
     padding: 20px;
     text-align: center;
+    margin: 5px;
 }
 
 #thumb{

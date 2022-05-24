@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="index.css">
+    
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-  
+
+   
    <body>
     <!-- INDEX ALL THEMA WRAPPER -->
     <div id="thema_wrapper">
@@ -144,7 +146,11 @@
                     <p>우리 고유의 체형과 움직임에 따라 요기보 제품들은 자연스럽게 변형됩니다.<br>
                     비교 불가한 Yogibo 베트트셀러 제품들로 지금 바로 진정한 힐링을 느껴보세요!</p>
                     <div id="our_container" class="our_container">
-                        <ul id="our_slide_wrab">
+                        <div id="step">
+                            <span class="prev">&lt;</span>
+                            <span class="next">&gt;</span>
+                        </div>
+                        <ul id="our_slide_wrab" class="slide">
                             <li class="our_slide">
                                 <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
                                 <dl>
@@ -153,7 +159,7 @@
                                 </dl>
                             </li>
                             <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <div id="thumb"><img src="img/index/content_school2.png" alt=""></div>
                                 <dl>
                                     <dt>BEST PICK</dt>
                                     <dd>요기보픽</dd>
@@ -167,7 +173,7 @@
                                 </dl>
                             </li>
                             <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <div id="thumb"><img src="img/index/content_school4.png" alt=""></div>
                                 <dl>
                                     <dt>BEST PICK</dt>
                                     <dd>요기보픽</dd>
@@ -180,8 +186,15 @@
                                     <dd>요기보픽</dd>
                                 </dl>
                             </li>
+                            <!-- <li class="our_swiper-slide">
+                                <div id="thumb"><img src="img/index/content_game1.png" alt=""></div>
+                                <dl>
+                                    <dt>BEST PICK</dt>
+                                    <dd>요기보픽</dd>
+                                </dl>
+                            </li>
                             <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <div id="thumb"><img src="img/index/content_school2.png" alt=""></div>
                                 <dl>
                                     <dt>BEST PICK</dt>
                                     <dd>요기보픽</dd>
@@ -193,16 +206,10 @@
                                     <dt>BEST PICK</dt>
                                     <dd>요기보픽</dd>
                                 </dl>
-                            </li>
-                            <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
-                                <dl>
-                                    <dt>BEST PICK</dt>
-                                    <dd>요기보픽</dd>
-                                </dl>
-                            </li>
+                            </li> -->
                             
                         </ul>
+                       
                     </div>
                    
                 </div>
@@ -253,17 +260,65 @@
         }
     </script>
 
-  
-    <script>
-        function slide(){
-            $('.our_slide').stop().animate({marginLeft:-1200}, function(){
-                $('.our_slide li:first').appendTo('.our_slide');
-                $('.our_slide').css({marginLeft:0});
+    <!-- <script>
+        function prev(){
+            $('#our_slide_wrab li:last').prependTo('#our.slide_wrab');
+            $('#our_slide_wrab').css('margin-left',-1000);
+            $('#our_slide_wrab').stop().animate({marginLeft:0},800);
+        }
+
+        function next(){
+            $('#our_slide_wrab').stop.animate({marginLeft:-1000},function(){
+                $('#our_slide_wrab li:first').appendTo('#our_slide_wrab');
+                $('#our_slide_wrab').css({marginLeft:0});
             });
         }
 
-        setInterval(slide,0);
+        function slide(){
+            $('#our_slide_wrab').stop.animate({marginLeft:-1000},function(){
+                $('#our_slide_wrab li:first').appendTo('#our_slide_wrab');
+                $('#our_slide_wrab').css({marginLeft:0});
+            });
+        }
+
+        setInterval(slide,3000);
+
+        $('.prev').click*(function(){
+            prev();
+        });
+
+        $('next').click(function(){
+            next();
+        });
+    </script> -->
+
+    <script>
+    $('.prev').click(function () {
+
+        $('.slide li:last').prependTo('.slide');
+
+        $('.slide').css('margin-left', -375);
+
+        $('.slide').stop().animate({ marginLeft: 0 }, 800)
+
+    });
+
+
+
+    $('.next').click(function () {
+
+        $('.slide').stop().animate({ marginLeft: -375 }, 800, function () {
+
+            $('.slide li:first').appendTo('.slide');
+
+            $('.slide').css({ marginLeft: 0 });
+
+        });
+
+    });
+
     </script>
+    
 
 </body>
 </html>
