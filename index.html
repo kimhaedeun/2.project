@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="index.css">
-   <script src="https://kit.fontawesome.com/bc11f443c9.js" crossorigin="anonymous"></script>
-<body>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+  
+   <body>
     <!-- INDEX ALL THEMA WRAPPER -->
     <div id="thema_wrapper">
 
@@ -137,8 +138,74 @@
                     </div>
                 </div>
             </section>
-            <section class="sub_3" >
-                <div class="inner"></div>
+            <section class="our_bestsellers" >
+                <div class="inner">
+                    <h3>Our Bestsleelers</h3>
+                    <p>우리 고유의 체형과 움직임에 따라 요기보 제품들은 자연스럽게 변형됩니다.<br>
+                    비교 불가한 Yogibo 베트트셀러 제품들로 지금 바로 진정한 힐링을 느껴보세요!</p>
+                    <div id="our_container" class="our_container">
+                        <ul id="our_slide_wrab">
+                            <li class="our_slide">
+                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <dl>
+                                    <dt>BEST PICK</dt>
+                                    <dd>요기보픽</dd>
+                                </dl>
+                            </li>
+                            <li class="our_swiper-slide">
+                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <dl>
+                                    <dt>BEST PICK</dt>
+                                    <dd>요기보픽</dd>
+                                </dl>
+                            </li>
+                            <li class="our_swiper-slide">
+                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <dl>
+                                    <dt>BEST PICK</dt>
+                                    <dd>요기보픽</dd>
+                                </dl>
+                            </li>
+                            <li class="our_swiper-slide">
+                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <dl>
+                                    <dt>BEST PICK</dt>
+                                    <dd>요기보픽</dd>
+                                </dl>
+                            </li>
+                            <li class="our_swiper-slide">
+                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <dl>
+                                    <dt>BEST PICK</dt>
+                                    <dd>요기보픽</dd>
+                                </dl>
+                            </li>
+                            <li class="our_swiper-slide">
+                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <dl>
+                                    <dt>BEST PICK</dt>
+                                    <dd>요기보픽</dd>
+                                </dl>
+                            </li>
+                            <li class="our_swiper-slide">
+                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <dl>
+                                    <dt>BEST PICK</dt>
+                                    <dd>요기보픽</dd>
+                                </dl>
+                            </li>
+                            <li class="our_swiper-slide">
+                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
+                                <dl>
+                                    <dt>BEST PICK</dt>
+                                    <dd>요기보픽</dd>
+                                </dl>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                   
+                </div>
             </section>
             <section class="sub_4">
                 <div class="inner"></div>
@@ -186,6 +253,17 @@
         }
     </script>
 
+  
+    <script>
+        function slide(){
+            $('.our_slide').stop().animate({marginLeft:-1200}, function(){
+                $('.our_slide li:first').appendTo('.our_slide');
+                $('.our_slide').css({marginLeft:0});
+            });
+        }
+
+        setInterval(slide,0);
+    </script>
 
 </body>
 </html>
