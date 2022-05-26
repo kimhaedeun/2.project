@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@font-face {
+    font-family: 'SUIT-Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Heavy.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/***********************************************************
+■ Basic : 기본
+************************************************************/
+*{margin: 0; padding: 0; }
+ul,ol,li{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none; color: #26282B;}
+*{font-family: 'Secular One', sans-serif;}
+
+/***********************************************************
+■ Layout : 레이아웃
+************************************************************/
+
+#thema_wrapper{
+    width: 100%;
+}
+
+#At-header{
+    width: 100%;
+    height: 1000px;
+    /* background-color: rgb(140, 166, 196);    */
+    /* background-image: url(img/index/bg_on.png);  */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.header_inner{
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255,0.7);
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+    padding: 8px 12px;
+    
+}
+
+.logo img{
+    height: 100%;
+    width: 150px;
+    
+ }
+
+.navbar_menu ul{
+    display: flex;
+    
+}
+
+.navbar_menu li{
+    padding: 8px 20px;;
+    font-size: 15px;
+    /* font-weight: bold; */
+    
+}
+
+.navbar_icons{
+    display: flex;
+}
+
+.navbar_icons li{
+    padding: 10px 12px;
+}
+
+/*******************공통 inner***************/
+
+.inner{ 
+    max-width: 1500px; 
+    height: 100%;
+    /* border: 1px solid white;  */
+    margin: 0 auto;
+    
+}
+
+footer{
+    max-width: 100%;
+}
+#footer{
+    height: 220px;
+    background-color: #d4d4d4;
+}
+
+#footer .col{
+    float: left; 
+    /* border: 5px solid navajowhite; */
+}
+
+#footer .col img{
+        width:  30%;
+        padding: 40px 0 0 40px;
+}
+
+#footer .col ul{
+    display: flex;
+}
+
+#footer .col li{
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+
+#footer .col .f_nav{
+    width:280px;
+    padding: 20px 100px;
+    float: left;
+}
+
+#footer .col .f_nav dl{
+    margin: 30px;
+}
+
+#footer .col .f_sns i{
+    font-size: 30px;
+    padding: 5px;
+}
+#footer .col .f_sns p{
+    margin: 0 0px;
+}
+

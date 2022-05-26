@@ -1,0 +1,155 @@
+
+@media screen and (max-width: 599px) {
+      #main_bg{
+        background-image:url(img/index/bg_on2.png);
+        width: 100%;
+        height: 1000px;
+        position:fixed;
+        z-index: -1;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+    #header_main>.large{
+        max-width: 100%;
+        height: 150px;
+        /* border: 2px solid black; */
+        margin: 0 auto;
+        margin-top: 300px;
+        text-align: center;
+        /* background-color: rgba(255, 255, 255, 0.7); */
+        background-attachment: fixed;
+    }
+    
+    
+    
+    #header_main>.large>h1{
+        
+        font-size: 60px;
+        font-weight: bold;
+        margin: 0 auto;
+        line-height: 100px;
+        color: #f3f3f3;
+       
+    }
+    
+    #header_main>.large span{
+        color: #58b5ca;
+        font-size: 80px;
+    }
+    
+    
+    #header_main>.large>p{
+        font-size: 15px;
+        color: #f3f3f3;
+        font-family: 'SUIT-Medium';
+      
+        
+        /* font-family: 'SUIT-Heavy'; */
+    }
+}
+   
+
+@media screen and (min-width: 600px) and (max-width: 1199px) {
+    #main_bg{
+    background-image:url(img/index/bg_on2.png);
+    width: 100%;
+    height: 1000px;
+    position:fixed;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#header_main>.large{
+    max-width: 100%;
+    height: 350px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    margin-top: 520px;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-attachment: fixed;
+}
+
+
+
+#header_main>.large>h1{
+    
+    font-size:10vw;
+    font-weight: bold;
+    margin: 0 auto;
+    line-height: 100px;
+    color: #f3f3f3;
+   
+}
+
+#header_main>.large span{
+    color: #58b5ca;
+    font-size: 12vw;
+}
+
+
+#header_main>.large>p{
+    font-size: 2vw;
+    color: #f3f3f3;
+    font-family: 'SUIT-Medium';
+  
+    
+    /* font-family: 'SUIT-Heavy'; */
+}
+
+}
+
+@media screen and (min-width:1200px) {
+    #main_bg{
+        background-image:url(img/index/bg_on2.png);
+        width: 100%;
+        height: 1000px;
+        position:fixed;
+        z-index: -1;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+    #header_main>.large{
+        max-width: 100%;
+        height: 350px;
+        /* border: 2px solid black; */
+        margin: 0 auto;
+        margin-top: 620px;
+        text-align: center;
+        /* background-color: rgba(255, 255, 255, 0.7); */
+        background-attachment: fixed;
+    }
+    
+    
+    
+    #header_main>.large>h1{
+        
+        font-size: 130px;
+        font-weight: bold;
+        margin: 0 auto;
+        line-height: 130px;
+        color: #f3f3f3;
+       
+    }
+    
+    #header_main>.large span{
+        color: #58b5ca;
+        font-size: 180px;
+    }
+    
+    
+    #header_main>.large>p{
+        font-size: 20px;
+        color: #f3f3f3;
+        font-family: 'SUIT-Medium';
+      
+        
+        /* font-family: 'SUIT-Heavy'; */
+    }
+}

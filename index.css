@@ -1,82 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-@font-face {
-    font-family: 'SUIT-Heavy';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Heavy.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'SUIT-Medium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-/***********************************************************
-■ Basic : 기본
-************************************************************/
-*{margin: 0; padding: 0; }
-ul,ol,li{margin: 0; padding: 0; list-style: none;}
-a{text-decoration: none; color: #26282B;}
-*{font-family: 'Secular One', sans-serif;}
 
-
-
-/***********************************************************
-■ Layout : 레이아웃
-************************************************************/
-
-#thema_wrapper{
-    width: 100%;
-}
-
-#At-header{
-    width: 100%;
-    height: 1000px;
-    /* background-color: rgb(140, 166, 196);    */
-    /* background-image: url(img/index/bg_on.png);  */
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-
-.header_inner{
-    position: fixed;
-    z-index: 20;
-    width: 100%;
-    height: 60px;
-    background-color: rgb(255, 255, 255,0.7);
-    display: flex;
-    justify-content:space-around; 
-    align-items: center;
-    padding: 8px 12px;
-    
-}
-
-.logo img{
-    height: 100%;
-    width: 150px;
-    
- }
-
-.navbar_menu ul{
-    display: flex;
-    
-}
-
-.navbar_menu li{
-    padding: 8px 20px;;
-    font-size: 15px;
-    /* font-weight: bold; */
-    
-}
-
-.navbar_icons{
-    display: flex;
-}
-
-.navbar_icons li{
-    padding: 10px 12px;
-}
 
 /**메인 배경화면 시작**/
 #main_bg{
@@ -126,20 +48,6 @@ a{text-decoration: none; color: #26282B;}
     
     /* font-family: 'SUIT-Heavy'; */
 }
-
-
-
-
-/*******************공통 inner***************/
-
-.inner{ 
-    max-width: 1500px; 
-    height: 100%;
-    /* border: 1px solid white;  */
-    margin: 0 auto;
-    
-}
-
 
 
 
@@ -209,6 +117,7 @@ a{text-decoration: none; color: #26282B;}
     height: 1000px;
     max-width: 100%;
     background-image: url(img/index/page_bg1.PNG);
+    margin-top: -7px;
 }
 
 .new_collabo .collabo_page{
@@ -229,7 +138,7 @@ a{text-decoration: none; color: #26282B;}
     width: 100%;
     margin-top: 50px;
     padding: 40px 0;
-    margin: 600px 20px 0 50px;
+    margin: 550px 20px 0 50px;
     font-size: 100px;
 }
 
@@ -248,7 +157,7 @@ a{text-decoration: none; color: #26282B;}
 
 .collabo_page .page2 #starwars{
     margin-left: 30px;
-    margin-top: 160px;
+    margin-top: 90px;
     z-index: 5;
     position: absolute;
     
@@ -256,7 +165,7 @@ a{text-decoration: none; color: #26282B;}
 
 .collabo_page .page2 #starwars_img{
     margin-left: -60px;
-    margin-top: 220px;
+    margin-top: 130px;
     max-width: 100%;
 }
 
@@ -349,10 +258,10 @@ a{text-decoration: none; color: #26282B;}
 }
 
 .tab_content .home >.content{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     /* border: 5px solid wheat; */
-    margin: 20px;
+    margin: 50px;
     overflow: hidden;
     
 }
@@ -360,7 +269,7 @@ a{text-decoration: none; color: #26282B;}
 .tab_content .content img{
     width: 100%;
     height: 100%;
-    border-radius: 90%;
+    /* border-radius: 90%; */
   
     
 }
@@ -424,18 +333,18 @@ a{text-decoration: none; color: #26282B;}
 #our_container>#step{
     width: 100%;
     text-align: right;
-    margin-top: 50px ;
-    margin: 0 -100px;
+    margin: 50px -100px;
+   
 }
 
-#step > span { font-size: 38px; color:#fff; line-height: 40px; ;
-        background: rgba(184, 184, 184, 0.6); cursor: pointer;  
-        transform: translateY(-50%); max-width: 100%;
+#step > span { font-size: 20px; color:#fff;
+        background: rgba(226, 226, 226, 0.6); cursor: pointer;  
+         border-radius: 50%; border: 1px solid #f3f3f3; font-family: "SUIT-Medium";
      }
     
-#step> span:hover {background: rgba(255,255,255,0.8); color:#000;}
+#step> span:hover {background: rgba(255,255,255,0.8); color:#58b5ca; }
 
-#step >.prev { padding: 5px; margin: 10px;}
+#step >.prev { padding: 5px; margin: 10px; }
     
 #step >.next { padding:5px;}
 
@@ -495,7 +404,7 @@ a{text-decoration: none; color: #26282B;}
 /*******************Our Bestsellers**********/
 
 .ourstory{
-    height: 1100px;
+    height: 900px;
     /* background-color: #58b5ca; */
     /* background-image: url(img/index/our_bg.png); */
     background-repeat: no-repeat;
@@ -526,19 +435,23 @@ a{text-decoration: none; color: #26282B;}
 #our_wrap{
     max-width:100%;
     max-height: 100%;
-    border: 5px solid bisque;
+    /* border: 5px solid bisque; */
     display: flex;
 }
 
 .our_img{
-    width: 500px;
+    width: 1000px;
     height: 700px;
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
+}
+
+.our_img img{
+    margin: 0 0 0 200px;
 }
 .our_detail{
     width: 1000px;
     height: 700px;
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
     
 }
 
@@ -586,10 +499,4 @@ font-family: "SUIT-Medium";
 }
 
 
-footer{
-    width: 100%;
-}
-#footer{
-    height: 200px;
-    background-color: #474747;
-}
+
