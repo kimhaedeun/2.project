@@ -14,6 +14,103 @@
     font-style: normal;
 }
 
+@media screen and (max-width: 599px){
+    .navbar_menu{display: none;}
+
+    .toggle_btn{
+        position: absolute;
+        position: fixed;
+        font-size: 40px;
+        cursor: pointer;
+        right: 30px;
+        top: 10px;
+        z-index: 30;
+        color: #58b5ca;
+        background-color: rgb(255, 255, 255,0.1);
+        border: none;
+
+    }
+
+    .overlay{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left:0;
+        background-color: rgba(65, 146, 160, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s; 
+        text-align: center;
+        z-index: 130;
+    }
+
+    .overlay-content{
+        position: relative;
+        top:2%;
+        width:100%;
+        margin-top: 30px;
+        display: block;
+    }
+
+    .overlay a{
+        padding: 20px;
+        line-height: 160%;
+        text-decoration: none;
+        font-size:35px;
+        transition: 0.3s;
+        font-weight: bold;
+        display: block;
+        color: #d4d4d4;
+    }
+
+    .overlay a:hover, .overlay a:focus {color: #2a4a50}
+
+    #myNav>.closebtn{
+        top: 20px;
+        margin-left: 400px;
+        font-size: 70px;
+    }
+
+    .header_inner h1{
+        margin-right: 100px;
+    }
+
+    .navbar_icons{
+        margin-right: 100px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1199px){
+
+    .header_inner{
+        max-width: 100%;
+        justify-content:space-around;
+    }
+
+    .navbar_menu a{
+        font-size: 13px;
+    }
+
+    .header_inner>.logo{
+        margin-top: -40px;
+        height: 90%;
+    }
+
+    .toggle_btn{display: none;}
+
+    #myNav{display: none;}
+
+}
+
+
+@media screen and (min-width:1200px){
+    .toggle_btn{display: none;}
+    .overlay{display: none;}
+}
+
+
+
 /***********************************************************
 ■ Basic : 기본
 ************************************************************/
@@ -56,6 +153,7 @@ a{text-decoration: none; color: #26282B;}
 .logo img{
     height: 100%;
     width: 150px;
+    margin-top: 20px;
     
  }
 
@@ -65,19 +163,30 @@ a{text-decoration: none; color: #26282B;}
 }
 
 .navbar_menu li{
-    padding: 8px 20px;;
+    padding: 10px 22px;;
     font-size: 15px;
     /* font-weight: bold; */
     
 }
 
+.navbar_menu li:hover{
+ border-bottom: 5px solid #58b5ca;
+   border-radius: 5px;
+   /* transition: 0.25s ease-in; */
+}
+
 .navbar_icons{
     display: flex;
+    cursor: pointer;
+    
 }
 
 .navbar_icons li{
     padding: 10px 12px;
+    
 }
+
+
 
 /*******************공통 inner***************/
 

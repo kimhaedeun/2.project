@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,27 +11,47 @@
     <link rel="stylesheet" href="main_media.css">
     <script src="https://kit.fontawesome.com/bc11f443c9.js" crossorigin="anonymous"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-    
-   
-   <body>
+
+
+<body>
     <!-- INDEX ALL THEMA WRAPPER -->
     <div id="thema_wrapper">
 
         <!-- HEADER 헤더 부분 -->
         <header>
-            <div id="At-header">        
+            <div id="At-header">
                 <div class="header_inner">
                     <h1 class="logo">
-                        <a href=""><img src="img/index/logo.png" alt=""></a>
+                        <a href="index.html"><img src="img/index/logo.png" alt="logo"></a>
                     </h1>
 
                     <div class="navbar_menu">
                         <ul>
-                            <li><a href="">With Yogibo</a></li>
-                            <li><a href="">New collabo</a></li>
-                            <li><a href="">Yogibo space</a></li>
-                            <li><a href="">Our Bestsellers</a></li>
-                            <li><a href="">Ourstory</a></li>
+                            <!--앵커(anchor)이용해서 이동-->
+                            <li><a href="#anchor1">with_Yogibo</a></li>
+                            <li><a href="#anchor2">New collabo</a></li>
+                            <li><a href="#anchor3">Yogibo space</a></li>
+                            <li><a href="#anchor4">Our Bestsellers</a></li>
+                            <li><a href="#anchor5">Our story</a></li>
+                            <li><a href="">Shop</a></li>
+                        </ul>
+                    </div>
+
+                     <!-- Toggle button -->
+                     <button class="toggle_btn" onclick="openNav()">
+                        <i class="fa-solid fa-bars"></i>
+                     </button>
+
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <ul class="overlay-content">
+                            <!--앵커(anchor)이용해서 이동-->
+                            <li><a href="#anchor1">with_Yogibo</a></li>
+                            <li><a href="#anchor2">New collabo</a></li>
+                            <li><a href="#anchor3">Yogibo space</a></li>
+                            <li><a href="#anchor4">Our Bestsellers</a></li>
+                            <li><a href="#anchor5">Our story</a></li>
+                            <li><a href="">Shop</a></li>
                         </ul>
                     </div>
 
@@ -39,9 +60,11 @@
                         <li><i class="fa-solid fa-cart-shopping"></i></li>
                     </ul>
                 </div>
+               
+
 
                 <!-- 메인 배경화면 시작 -->
-                <div id="main_bg">  
+                <div id="main_bg">
                     <div id="header_main">
                         <div class="large">
                             <h1>We <span>want</span> relaxing <br>
@@ -49,7 +72,7 @@
                             </h1>
 
                             <p>진정한 쉼에 즐거움까지!
-                              글로벌 라이프스타일 브랜드 YOGIBO와 함께하세요.
+                                글로벌 라이프스타일 브랜드 YOGIBO와 함께하세요.
                             </p>
                         </div>
                     </div>
@@ -57,48 +80,54 @@
             </div>
         </header>
 
+        <!-- 앵커 이동 1 -->
         <div id="main">
-            <section class="Why_Yogibo" >
+            <section class="with_Yogibo" id="anchor1">
                 <div class="inner">
-                    <h1 class>With Yogibo?</h1>
+                    <h1 class="with_h1">With Yogibo?</h1>
                     <h3>요기보와 함께 한다는 의미는 따분하고 진부할 수 있는 우리 일상에 힐링,릴랙스, 즐거움의 가치를 더한다는 것입니다.</h3>
                     <ul class="advantage_ist">
-                        <li class="data_on_1">Versatile <span><img src="img/index/main_list.png" alt=""></span></li>
-                        <li class="data_down_1">Lightweight<span><img src="img/index/main_list.png" alt=""></span></li>
-                        <li class="data_on_1">Space Efficient<span><img src="img/index/main_list.png" alt=""></span></li>
-                        <li class="data_down_2">Durable<span><img src="img/index/main_list.png" alt=""></span></li>
-                        <li class="data_on_1">Fun<span><img src="img/index/main_list.png" alt=""></span></li>
+                        <li class="data_on_1">Versatile <span><img src="img/index/main_list.png" alt="b_list"></span></li>
+                        <li class="data_down_1">Lightweight<span><img src="img/index/main_list.png" alt="b_list"></span></li>
+                        <li class="data_on_1">Space Efficient<span><img src="img/index/main_list.png" alt="b_list"></span>
+                        </li>
+                        <li class="data_down_2">Durable<span><img src="img/index/main_list.png" alt="b_list"></span></li>
+                        <li class="data_on_1">Fun<span><img src="img/index/main_list.png" alt="b_list"></span></li>
                     </ul>
-                  
+
                 </div>
-                <img src="img/index/withyogibo_bg.png" alt="" >
-                
+                <img src="img/index/withyogibo_bg.png" alt="with_Yogibo" id="with_img">
+
             </section>
-            <section class="new_collabo" >
+
+            <!-- 앵커 이동 2 -->
+            <section class="new_collabo" id="anchor2">
                 <div class="inner">
                     <div class="collabo_page">
                         <div class="page1">
-                                <h1>NEW Collaboration</h1>
-                                <p>Meet The Yogibo Starwars Mate<br>
-                                    디즈니와의 정식 라이선싱을 통해 출시된 요기요X스타워즈콜라보 콜렉션은 요기보의 새로운 도전과 특별한 가치를 담은 스페셜 에디션 제품입니다.</p>
-                            </div>
-                            
+                            <h1>NEW Collaboration</h1>
+                            <p>Meet The Yogibo Starwars Mate<br>
+                                디즈니와의 정식 라이선싱을 통해 출시된 요기요X스타워즈콜라보 콜렉션은 요기보의 새로운 도전과 특별한 가치를 담은 스페셜 에디션 제품입니다.</p>
+                        </div>
+
                         <div class="page2">
-                            
+
                             <img src="img/index/starwars.PNG" alt="c_i1" id="starwars">
                             <img src="img/index/new.png" alt="c_i2" id="starwars_img">
                         </div>
                         <div class="page3">
                             <img src="img/index/new1.png" alt="new1" class="reveal">
-                            
+
                             <img src="img/index/new2.png" alt="new2">
                             <img src="img/index/new4.png" alt="new3">
                         </div>
                     </div>
-                    
+
                 </div>
             </section>
-            <section class="yogibo_space" >
+
+            <!-- 앵커 이동 3 -->
+            <section class="yogibo_space" id="anchor3">
                 <div class="inner">
                     <div id="tab_wrab">
                         <div class="swiper_container">
@@ -115,15 +144,15 @@
                                 <div class="content">
                                     <img src="img/index/content_home1.png" alt="home1" class="img">
                                     <h1 class="overlay">자세히보기</h1>
-                                    
+
                                 </div>
                                 <div class="content">
-                                    <img src="img/index/content_home2.jpg" alt="home2" class="img" >
+                                    <img src="img/index/content_home2.jpg" alt="home2" class="img">
                                     <h1 class="overlay">자세히보기</h1>
-                                    
+
                                 </div>
-                                
-                                
+
+
                             </div>
                             <div class="home">
                                 <div class="content">
@@ -134,19 +163,21 @@
                                     <img src="img/index/content_home4.jpg" alt="" class="img">
                                     <h1 class="overlay">자세히보기</h1>
                                 </div>
-                                
-                                
+
+
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="our_bestsellers" >
+
+            <!-- 앵커 이동 4 -->
+            <section class="our_bestsellers" id="anchor4">
                 <div class="inner">
                     <h3>Our Bestsleelers</h3>
                     <p>우리 고유의 체형과 움직임에 따라 요기보 제품들은 자연스럽게 변형됩니다.<br>
-                    비교 불가한 Yogibo 베트트셀러 제품들로 지금 바로 진정한 힐링을 느껴보세요!</p>
+                        비교 불가한 Yogibo 베트트셀러 제품들로 지금 바로 진정한 힐링을 느껴보세요!</p>
                     <div id="our_container" class="our_container">
                         <div id="step">
                             <span class="prev">&lt;</span>
@@ -160,6 +191,7 @@
                                     <dd>199,000원</dd>
                                 </dl>
                             </li>
+
                             <li class="our_swiper-slide">
                                 <div id="thumb"><img src="img/index/best2.jpg" alt="best2"></div>
                                 <dl>
@@ -188,77 +220,59 @@
                                     <dd>323,100원</dd>
                                 </dl>
                             </li>
-                            <!-- <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/content_game1.png" alt=""></div>
-                                <dl>
-                                    <dt>BEST PICK</dt>
-                                    <dd>요기보픽</dd>
-                                </dl>
-                            </li>
-                            <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/content_school2.png" alt=""></div>
-                                <dl>
-                                    <dt>BEST PICK</dt>
-                                    <dd>요기보픽</dd>
-                                </dl>
-                            </li>
-                            <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/content_school3.png" alt=""></div>
-                                <dl>
-                                    <dt>BEST PICK</dt>
-                                    <dd>요기보픽</dd>
-                                </dl>
-                            </li> -->
-                            
+
+
                         </ul>
-                       
+
                     </div>
-                   
+
                 </div>
             </section>
-            <section class="ourstory">
+
+            <!-- 앵커 이동 5 -->
+            <section class="ourstory" id="anchor5">
                 <div id="our_bg">
-                <div class="inner">
-                    <div id="our_tit">
-                        <h1>OurStory</h1>
-                        <p> 2009년 미국 동부에서 시작된 Yogibo는 전세계 150개 매장에서 만나볼 수 있는 글로벌 라이프스타일 브랜드입니다. 
-                        </p>
+                    <div class="inner">
+                        <div id="our_tit">
+                            <h1>OurStory</h1>
+                            <p> 2009년 미국 동부에서 시작된 Yogibo는 전세계 150개 매장에서 만나볼 수 있는 글로벌 라이프스타일 브랜드입니다.
+                            </p>
+                        </div>
+                        <div id="our_wrap">
+                            <div class="our_img">
+                                <img src="img/index/our1.jpg" alt="">
+                            </div>
+                            <div class="our_detail">
+                                <div class="our_list">
+                                    <h2>Discover the Feel</h2>
+                                        <p id="h2_p"> 전세계인들이《마땅히 누려야 할 행복》을 누릴 수 있는 세상을 꿈꾸며</p>
+
+                                </div>
+                                <div class="our_list">
+                                    <h3>우리의 약속</h3>
+                                    <p id="h3_p">기능적 디자인과 감각적인 경험을 더해 차별화된 느낌을 원하는 가족과 개인을 위해
+                                        Yogibo는 나,공간,모든이와 조화를 이룰 수 있도록 합니다.</p>
+                                    <button class="our_btn"> The more</button>
+                                </div>
+                                <div class="our_list">
+                                    <h3>우리의 열정</h3>
+                                    <p id="h3_p"> Yogibo 제품이 다양한 요구를 가진 사람들에게 삶의 변화를 가져다준다는 사실을 알게 되었습니다.
+                                        Yogibo 제품의 대부분은 통증과 다양한 신체적 불편,스트레스 및 불안에 도움이 됩니다.
+                                    </p>
+                                    <button class="our_btn"> The more</button>
+                                </div>
+                                <div class="our_list">
+                                    <h3>창립자로부터</h3>
+                                    <p id="h3_p">"Yogibo의 아이디어는 임신을 편안하게 만드는 방법을 고안하는 과정에서 시작되었습니다. 올바른 해결책을 찾고 있었고,
+                                        Yogibo의 '느낌을 발견'하여 우리 삶의 모든 측면에 가져오고자 하였습니다. 
+                                    </p>
+                                    <button class="our_btn"> The more</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div id="our_wrap">
-                        <div class="our_img">
-                          <img src="img/index/our1.jpg" alt="">
-                        </div>
-                        <div class="our_detail">
-                            <div class="our_list1">
-                                <h2>Discover the Feel</h3>
-                                <p id="h2_p"> 전세계인들이《마땅히 누려야 할 행복》을 누릴 수 있는 세상을 꿈꾸며</p>
-                               
-                            </div>
-                            <div class="our_list2">
-                                <h3>우리의 약속</h3>
-                                <p id="h3_p">기능적 디자인과 감각적인 경험을 더해 차별화된 느낌을 원하는 가족과 개인을 위해 
-                                    Yogibo는 나,공간,모든이와 조화를 이룰 수 있도록 합니다.</p>
-                                <button class="our_btn"> The more</button>
-                            </div>
-                            <div class="our_list3">
-                                <h3>우리의 열정</h3>
-                                <p id="h3_p"> Yogibo 제품이 다양한 요구를 가진 사람들에게 삶의 변화를 가져다준다는 사실을 알게 되었습니다.
-                                    Yogibo 제품의 대부분은 통증과 다양한 신체적 불편,스트레스 및 불안에 도움이 됩니다.
-                                </p>
-                                <button class="our_btn"> The more</button>
-                            </div>
-                            <div class="our_list4">
-                                <h3>창립자로부터</h3>
-                                <p id="h3_p">"Yogibo의 아이디어는 임신을 편안하게 만드는 방법을 고안하는 과정에서 시작되었습니다. 올바른 해결책을 찾고 있었고,
-                                    Yogibo의 '느낌을 발견'하여 우리 삶의 모든 측면에 가져오고자 하였습니다.  </p>
-                                <button class="our_btn"> The more</button>
-                            </div>
-                        </div>
-                     </div>
-                </div>
-            <!-- </div> -->
             </section>
-           
+
         </div>
         <footer id="footer">
             <div class="inner">
@@ -273,15 +287,19 @@
                             <li>이용약관</li>
                             <li>개인정보처리방침</li>
                         </ul>
-                        
+
                         </dl>
                     </div>
                     <div class="col">
                         <div class="f_nav">
                             <dl>
-                                <dt><h2>CUSTOMER CENTER</h2></dt>
+                                <dt>
+                                    <h2>CUSTOMER CENTER</h2>
+                                </dt>
                                 <dd>010-6244-4913</dd>
-                                <dt><h2>ACCOUNT INFO</h2></dt>
+                                <dt>
+                                    <h2>ACCOUNT INFO</h2>
+                                </dt>
                                 <dd>010-6244-4913</dd>
                             </dl>
                         </div>
@@ -300,105 +318,87 @@
                                     <p>twitter</p>
                                 </li>
                             </ul>
-                           
-                            
+
+
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </footer>
     </div>
-    
+
     <script>
 
-        document.getElementById('space_btn1').onclick=function(){
-            document.getElementsByClassName('img')[0].src="img/index/content_home1.png";
-            document.getElementsByClassName('img')[1].src="img/index/content_home2.jpg";
-            document.getElementsByClassName('img')[2].src="img/index/content_home3.jpg";
-            document.getElementsByClassName('img')[3].src="img/index/content_home4.jpg";
+        document.getElementById('space_btn1').onclick = function () {
+            document.getElementsByClassName('img')[0].src = "img/index/content_home1.png";
+            document.getElementsByClassName('img')[1].src = "img/index/content_home2.jpg";
+            document.getElementsByClassName('img')[2].src = "img/index/content_home3.jpg";
+            document.getElementsByClassName('img')[3].src = "img/index/content_home4.jpg";
         }
-        document.getElementById('space_btn2').onclick=function(){
-            document.getElementsByClassName('img')[0].src="img/index/content_game1.png";
-            document.getElementsByClassName('img')[1].src="img/index/content_game2.png";
-            document.getElementsByClassName('img')[2].src="img/index/content_game3.png";
-            document.getElementsByClassName('img')[3].src="img/index/content_game4.png";
-        }
-
-        document.getElementById('space_btn3').onclick=function(){
-            document.getElementsByClassName('img')[0].src="img/index/content_office1.png";
-            document.getElementsByClassName('img')[1].src="img/index/content_office2.png";
-            document.getElementsByClassName('img')[2].src="img/index/content_office3.png";
-            document.getElementsByClassName('img')[3].src="img/index/content_office4.png";
+        document.getElementById('space_btn2').onclick = function () {
+            document.getElementsByClassName('img')[0].src = "img/index/content_game1.png";
+            document.getElementsByClassName('img')[1].src = "img/index/content_game2.png";
+            document.getElementsByClassName('img')[2].src = "img/index/content_game3.png";
+            document.getElementsByClassName('img')[3].src = "img/index/content_game4.png";
         }
 
-        document.getElementById('space_btn4').onclick=function(){
-            document.getElementsByClassName('img')[0].src="img/index/content_school1.jpg";
-            document.getElementsByClassName('img')[1].src="img/index/content_school2.png";
-            document.getElementsByClassName('img')[2].src="img/index/content_school3.png";
-            document.getElementsByClassName('img')[3].src="img/index/content_school4.png";
+        document.getElementById('space_btn3').onclick = function () {
+            document.getElementsByClassName('img')[0].src = "img/index/content_office1.png";
+            document.getElementsByClassName('img')[1].src = "img/index/content_office2.png";
+            document.getElementsByClassName('img')[2].src = "img/index/content_office3.png";
+            document.getElementsByClassName('img')[3].src = "img/index/content_office4.png";
+        }
+
+        document.getElementById('space_btn4').onclick = function () {
+            document.getElementsByClassName('img')[0].src = "img/index/content_school1.jpg";
+            document.getElementsByClassName('img')[1].src = "img/index/content_school2.png";
+            document.getElementsByClassName('img')[2].src = "img/index/content_school3.png";
+            document.getElementsByClassName('img')[3].src = "img/index/content_school4.png";
         }
     </script>
 
-    <!-- <script>
-        function prev(){
-            $('#our_slide_wrab li:last').prependTo('#our.slide_wrab');
-            $('#our_slide_wrab').css('margin-left',-1000);
-            $('#our_slide_wrab').stop().animate({marginLeft:0},800);
-        }
-
-        function next(){
-            $('#our_slide_wrab').stop.animate({marginLeft:-1000},function(){
-                $('#our_slide_wrab li:first').appendTo('#our_slide_wrab');
-                $('#our_slide_wrab').css({marginLeft:0});
-            });
-        }
-
-        function slide(){
-            $('#our_slide_wrab').stop.animate({marginLeft:-1000},function(){
-                $('#our_slide_wrab li:first').appendTo('#our_slide_wrab');
-                $('#our_slide_wrab').css({marginLeft:0});
-            });
-        }
-
-        setInterval(slide,3000);
-
-        $('.prev').click*(function(){
-            prev();
-        });
-
-        $('next').click(function(){
-            next();
-        });
-    </script> -->
-
     <script>
-    $('.prev').click(function () {
+        $('.prev').click(function () {
 
-        $('.slide li:last').prependTo('.slide');
+            $('.slide li:last').prependTo('.slide');
 
-        $('.slide').css('margin-left', -375);
+            $('.slide').css('margin-left', -375);
 
-        $('.slide').stop().animate({ marginLeft: 0 }, 800)
-
-    });
-
-
-
-    $('.next').click(function () {
-
-        $('.slide').stop().animate({ marginLeft: -375 }, 800, function () {
-
-            $('.slide li:first').appendTo('.slide');
-
-            $('.slide').css({ marginLeft: 0 });
+            $('.slide').stop().animate({ marginLeft: 0 }, 800)
 
         });
 
-    });
+
+
+        $('.next').click(function () {
+
+            $('.slide').stop().animate({ marginLeft: -375 }, 800, function () {
+
+                $('.slide li:first').appendTo('.slide');
+
+                $('.slide').css({ marginLeft: 0 });
+
+            });
+
+        });
 
     </script>
+
+    <!-- nav myNav Open Close button-->
+ 
+    <script>
+
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
     
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    
+      </script>
 
 </body>
+
 </html>

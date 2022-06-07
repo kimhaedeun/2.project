@@ -11,6 +11,7 @@
     }
     
     
+    
     #header_main>.large{
         max-width: 100%;
         height: 150px;
@@ -41,7 +42,7 @@
     
     
     #header_main>.large>p{
-        font-size: 15px;
+        font-size: 13px;
         color: #f3f3f3;
         font-family: 'SUIT-Medium';
       
@@ -120,7 +121,7 @@
         height: 350px;
         /* border: 2px solid black; */
         margin: 0 auto;
-        margin-top: 620px;
+        margin-top: 550px;
         text-align: center;
         /* background-color: rgba(255, 255, 255, 0.7); */
         background-attachment: fixed;
