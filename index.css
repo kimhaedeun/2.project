@@ -358,7 +358,7 @@
 /*******************Our story**********/
 
 .ourstory{
-    height: 1600px;
+    height: 1500px;
     /* background-color: #58b5ca; */
     /* background-image: url(img/index/our_bg.png); */
     background-repeat: no-repeat;
@@ -392,20 +392,25 @@
     max-width:100%;
     max-height: 100%;
     display: block;
+    position: relative;
     /* border: 5px solid bisque; */
    
 }
 
 .ourstory>#our_bg>.inner>#our_wrap>.our_img{
-    width: 500px;
+    width: 400px;
     height: 100px;
+ 
     
     /* border: 2px solid saddlebrown; */
 }
 
 #our_wrap>.our_img img{
-    max-width: 90%;
-    margin: 800px 0 0 10px;
+    max-width: 100%;
+    top: 850px;
+    right: 0;
+    /* border: 1px solid saddlebrown; */
+    position: absolute;
     
 }
 #our_wrap>.our_detail{
