@@ -43,7 +43,7 @@
 .new_collabo{
     max-width: 100%;
     height: 1000px;
-   background-color: #5f5f5f;
+   background-color: #000000;
     margin-top: -7px;
 }
 
@@ -54,58 +54,62 @@
 }
 
 .new_collabo>.inner>.collabo_page>.page1{
-    width: calc(100% - 40px);
+    width: 100%;
+    height: 100%;
     color: white;
     display: block;
-    padding: 40px 0px 0 20px;
+    text-align: center;
+    padding: 10px 0;
+    
 }
 
 .new_collabo>.inner>.collabo_page>.page1 h1{
-    width: 100%;
-    height: 50px;
-    margin: 10px 0px 0 0px;
+    max-width: 100%;
+    height: 60px;
+    margin: 0px 0px 0 0px;
     font-size: 50px;
+    /* border: 2px solid saddlebrown; */
 }
 
 .new_collabo>.inner>.collabo_page>.page1 p{
-    width:90%;
+    max-width: 82%;
     font-size: 12px;
     line-height: 20px;
-    margin: -20px 0px;
+    margin: 0px 50px;
     font-family: 'SUIT-Medium';
+    text-align: center;
+    /* border: 2px solid seagreen; */
 }
 .new_collabo>.inner>.collabo_page>.page2{
   width: 90%;
   height: 300px;
-  margin: 0 250px;
+  margin: 0 0px;
   
 }
 .new_collabo>.inner>.collabo_page>.page2>#starwars{
     margin-top: -20px;
-    margin-left: -150px;
+    margin-left: 50px;
     z-index: 5;
     position: absolute;
     width: 40%;
 }
 
 .new_collabo>.inner>.collabo_page>.page2>#starwars_img{
-    width: 100%;
-    margin: 0px -200px;
+    max-width: 100%;
+    margin: 0px 20px;
+    /* border: 2px solid saddlebrown; */
 
 
 }
 
-.new_collabo>.inner>.collabo_page>.page3{
-    max-width: 50%;
-    height: 250px;
-    display: flex;
-    flex-direction: row;
+.collabo_page>.page3{
+    max-width: 100%;
+    margin: 120px auto;
+    text-align: center;
 }
 
 .collabo_page .page3 img{
     width: 150px;
-    height: 150px;
-    margin: 20px 5px;
     cursor: pointer;
   
 }
@@ -125,7 +129,7 @@
 
 /*******************Yogibo_space***************/
 .yogibo_space{
-    height: 2500px;
+    height: 2300px;
     background-color:#f3f3f3;
 }
 
@@ -237,16 +241,19 @@
 }
 
 .our_bestsellers>.inner h3{
-    margin: 50px 0 0 50px;
-    padding: 100px 0 0 0;
-    font-size: 55px;
+    max-width: 100%;
+    margin: 50px 0 0 0px;
+    padding: 80px 0 0 0;
+    text-align: center;
+    font-size: 50px;
     color: #f3f3f3;
     /* border: 2px solid black; */
 }
 .our_bestsellers>.inner p{
-    max-width: 100%;
+    width: 100%;
     height: 50px;
-    margin: 10px 0 0 50px;
+    margin: 0 0px;
+    text-align: center;
     color: #5f5f5f;
     font-size: 14px;
     font-family: "SUIT-Medium";
@@ -255,27 +262,21 @@
 
 .our_bestsellers>.inner>#our_container{
     /*컨텐츠위치*/
-    max-width: 100%;
+    max-width:100% ;
     max-height: 100%;
-    /* border: 1px solid beige; */
+    /* border: 1px solid rgb(207, 207, 187); */
     overflow: hidden; 
-    margin: 0 60px;
-    padding:  0 20px;
+    margin: 0px 60px;
+    position: relative;
 }
 
-.our_bestsellers>.inner>#our_container>#step{
-    position:absolute;
-    width: 100%;
-    text-align: right;
-    margin: 250px -100px;
-   
-}
 
 .our_bestsellers>.inner>#our_container>#step> span { 
     font-size: 25px; color:#fff;
-    background: rgba(226, 226, 226, 0.6);
+    background: rgba(226, 226, 226, 11);
     cursor: pointer;  
-    border-radius: 50%; border: 1px solid #f3f3f3; 
+    border-radius: 50%; 
+    border: 1px solid #f3f3f3; 
     font-family: "SUIT-Medium";
      }
     
@@ -283,17 +284,23 @@
     background: rgba(255,255,255,0.8); color:#58b5ca; 
 }
 
+
+
 .our_bestsellers>.inner>#our_container>#step>.prev { 
     position: absolute;
-    padding: 10px; 
-    margin: -30px -460px;
+    top: 40%;
+    left: -10px;
+    padding: 10px;
+  
 }
     
 .our_bestsellers>.inner>#our_container>#step>.next { 
     position: absolute;
-    padding: 10px; 
-    margin: -30px -40px;
-  
+    top: 42%;
+    right: 0;
+    padding: 10px;
+   
+    
 }
 
 .our_bestsellers>.inner>#our_container >#our_slide_wrab{ 
@@ -301,7 +308,7 @@
     align-items: center;
     justify-content: center;
 
-    width: 1875px;              /*컨텐츠 컨테이너 최대 넓이*/
+    width: 370vw;              /*컨텐츠 컨테이너 최대 넓이*/
     box-sizing:border-box;
     margin: 50px auto;
     /* background-color: #58b5ca; */
@@ -309,11 +316,11 @@
 }
 .our_bestsellers>.inner>#our_container>#our_slide_wrab li{
     /* border: 2px solid saddlebrown; */
-    width:  20%;              /*컨텐츠 슬라이드 넓이*/
+    width:  68vw;              /*컨텐츠 슬라이드 넓이*/
     height: 400px;
     padding: 5px;
     text-align: center;
-    margin: 5px;
+    margin: 3vw;
 }
 
 #thumb{
@@ -397,8 +404,8 @@
 }
 
 #our_wrap>.our_img img{
-    max-width: 100%;
-    margin: 800px 0 0 0px;
+    max-width: 90%;
+    margin: 800px 0 0 10px;
     
 }
 #our_wrap>.our_detail{
@@ -476,7 +483,97 @@ font-family: "SUIT-Medium";
 
 
 
+@media screen and (min-width: 600px) and (max-width: 940px){
 
+    /*******************NEW collabo***************/
+.new_collabo{
+    max-width: 100%;
+    height: 1000px;
+   background-color: #000000;
+    margin-top: -7px;
+}
+
+.new_collabo>.inner>.collabo_page{
+   height: 250px;
+    width: 100%;
+    display: block;
+}
+
+.new_collabo>.inner>.collabo_page>.page1{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+.new_collabo>.inner>.collabo_page>.page1 h1{
+    max-width: 100%;
+    height: 60px;
+    margin: 0px 0px 0 0px;
+    font-size: 50px;
+    /* border: 2px solid saddlebrown; */
+}
+
+.new_collabo>.inner>.collabo_page>.page1 p{
+    max-width: 82%;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px 50px;
+    font-family: 'SUIT-Medium';
+    text-align: center;
+    /* border: 2px solid seagreen; */
+}
+.new_collabo>.inner>.collabo_page>.page2{
+  width: 90%;
+  height: 300px;
+  margin: 0 0px;
+  
+}
+.new_collabo>.inner>.collabo_page>.page2>#starwars{
+    margin-top: -20px;
+    margin-left: 50px;
+    z-index: 5;
+    position: absolute;
+    width: 40%;
+}
+
+.new_collabo>.inner>.collabo_page>.page2>#starwars_img{
+    max-width: 100%;
+    margin: 0px 20px;
+    /* border: 2px solid saddlebrown; */
+
+
+}
+
+.collabo_page>.page3{
+    max-width: 100%;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.collabo_page .page3 img{
+    width: 150px;
+    cursor: pointer;
+  
+}
+
+
+.reveal:hover{
+
+    transition: transform .5s .25s ease-in;
+    
+}
+
+ 
+/** list 문자와 list 이미지 간격 조정**/
+.with_Yogibo>.inner>.advantage_ist img{
+    display: none;
+}
+
+}
 
 @media screen and (min-width: 600px) and (max-width: 1199px) {
     
@@ -509,7 +606,7 @@ font-family: "SUIT-Medium";
 .new_collabo{
     max-width: 100%;
     height: 1000px;
-   background-color: #5f5f5f;
+   background-color: #000000;
     margin-top: -7px;
 }
 
@@ -894,7 +991,27 @@ font-family: "SUIT-Medium";
 }
 
 
-@media screen and (min-width:1200px){}
+@media screen and (min-width:1200px){
+    .collabo_page .page3{
+        width: 200px;
+        height: 100%;
+        display: flex;
+        margin: 100px 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .collabo_page .page3 img{
+        max-width: 100%;
+    }
+
+    #our_container>#step{
+        width: 100%;
+        text-align: right;
+        margin: 50px -100px;
+       
+    }
+}
 
 /**메인 배경화면 시작**/
 #main_bg{
@@ -1011,7 +1128,7 @@ font-family: "SUIT-Medium";
 .new_collabo{
     height: 1000px;
     max-width: 100%;
-    background-image: url(img/index/page_bg1.PNG);
+    background-color: black;
     margin-top: -7px;
 }
 
@@ -1064,7 +1181,7 @@ font-family: "SUIT-Medium";
     max-width: 100%;
 }
 
-.collabo_page .page3{
+/* .collabo_page .page3{
     width: 200px;
     height: 100%;
     display: flex;
@@ -1075,7 +1192,7 @@ font-family: "SUIT-Medium";
 
 .collabo_page .page3 img{
     max-width: 100%;
-}
+} */
 
 
 .reveal:hover{
@@ -1221,12 +1338,12 @@ font-family: "SUIT-Medium";
     overflow: hidden; 
 }
 
-#our_container>#step{
+/* #our_container>#step{
     width: 100%;
     text-align: right;
     margin: 50px -100px;
    
-}
+} */
 
 #step > span { font-size: 20px; color:#fff;
         background: rgba(226, 226, 226, 0.6); cursor: pointer;  
