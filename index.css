@@ -662,10 +662,11 @@ font-family: "SUIT-Medium";
 }
 
 .new_collabo>.inner>.collabo_page>.page3{
-    width: 20%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     margin: 200px 0;
     
 }
