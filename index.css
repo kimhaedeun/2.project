@@ -441,7 +441,7 @@ font-family: "SUIT-Medium";
 }
 
 #our_wrap>.our_detail>.our_list{
-    max-width: 50%;
+    max-width: 100%;
     margin: 105px  50px;
 }
 
