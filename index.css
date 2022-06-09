@@ -182,8 +182,8 @@
 .yogibo_space>.inner>#tab_wrab .swiper_container button{
   width: 80%;
   height: 60%;
-  margin: 20px;
   background-color: rgba(255, 255, 255, 0.1);
+  margin: 25px 0;
   cursor: pointer;
   border: none;
   border-radius: 10px;
