@@ -176,6 +176,7 @@
     margin: 100px 0;
     display: flex;
     justify-content: center;
+    text-align: center;
     /* border: 2px solid saddlebrown; */
 }
 
@@ -753,6 +754,7 @@
     margin: -10px auto;
     display: flex;
     justify-content: center;
+    
 }
 
 .yogibo_space>.inner>#tab_wrab .swiper_container button{
