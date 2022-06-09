@@ -373,7 +373,7 @@
 /*******************Our story**********/
 
 .ourstory{
-    height: 1400px;
+    height: 1250px;
     /* background-color: #58b5ca; */
     /* background-image: url(img/index/our_bg.png); */
     background-repeat: no-repeat;
@@ -435,7 +435,7 @@
     max-width: 100%;
     height: 100%;
     padding: 0px 0;
-    margin: 490px 0;
+    margin: 290px 0;
     /* border: 2px solid saddlebrown; */
     
 }
