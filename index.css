@@ -292,6 +292,7 @@
     border-radius: 50%; 
     border: 1px solid #f3f3f3; 
     font-family: "SUIT-Medium";
+    display: none;
      }
     
 .our_bestsellers>.inner>#our_container>#step> span:hover {
@@ -856,6 +857,7 @@
     width: 100%;
     text-align: right;
     margin: 50px -100px;
+ 
    
 }
 
