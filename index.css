@@ -418,13 +418,13 @@
     height: 100%;
     padding: 0px 0;
     margin: -100px 0;
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
     
 }
 
 #our_wrap>.our_detail div{
     max-width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 50px auto;
     height: 100px;
     text-align: center;
@@ -440,7 +440,7 @@
     }
 
 #our_wrap>.our_detail>.our_list>#h2_p{
-    border: 1px solid saddlebrown;
+    /* border: 1px solid saddlebrown; */
     width: 100%;
     font-size: 2.8vw;
     margin: 100px 0;
@@ -452,7 +452,7 @@
 
 #our_wrap>.our_detail>.our_list{
     max-width: 100%;
-    margin: 110px 0;
+    margin: 150px auto;
 }
 
 #our_wrap>.our_detail>.our_list h3{
@@ -469,13 +469,14 @@
 
 
 #our_wrap>.our_detail>.our_list>#h3_p{
-    max-width: 100%;
+    max-width: 80%;
     font-size: 2.6vw;
-    margin: 10px 0 10px;
+    margin: 10px 50px;
     color: #5f5f5f;
     font-family: "SUIT-Medium";
     position: absolute;
     text-align: center;
+    /* border: 2px solid saddlebrown; */
 }
 
 .our_btn{
