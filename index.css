@@ -4,16 +4,23 @@
 /*******************With_Yogibo***************/
 
 #main>.with_Yogibo{
-    max-height: 50%;
+    max-height: 100%;
+    /* border: 5px solid saddlebrown; */
  }
  
  #main>.with_Yogibo h1{
-     padding: 100px 50px 0 50px;
+    text-align: center;
+     font-size: 11vw;
+     /* border: 5px solid saddlebrown; */
+        max-width: 100%;
+        padding: 80px 0 0 0 ;
      }
  
  #main>.with_Yogibo h3{
-     max-width: 80%;
-     margin-left: 50px;
+     max-width: 100%;
+     margin:0 30px;
+     font-size: 2.8vw;
+     text-align: center;
  }
  
  #main>.with_Yogibo>.inner ul{
