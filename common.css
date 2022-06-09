@@ -324,17 +324,19 @@ footer{
 #footer .col_1{
     max-width: 100%;
     float: left;
+    margin: 10px 10px;
     /* border: 5px solid navajowhite; */
 }
 #footer .col_2{
-    max-width: 120px;
+    max-width: 100%;
     display: flex;
+    margin: 20px 0;
     /* border: 5px solid navajowhite; */
 }
 
 #footer .col_1 img{
         width:  30%;
-        margin: 10px 0 0 80px;
+        margin: 0px 0 0 80px;
 }
 
 #footer .col_1 ul{
@@ -354,7 +356,9 @@ footer{
 #footer .col_2 .f_nav{
     max-width: 100%;
         float: left;
-    margin: 30px 15px;
+    margin: 0px 115px;
+    text-align: center;
+    /* border: 2px solid firebrick; */
     
 }
 
@@ -367,7 +371,7 @@ footer{
 #footer .col_2 .f_sns{
     max-width: 100%;
     display: flex;
-    margin: 0px 50px;
+    margin: 0px -20px;
 }
 
 #footer .col_2 .f_nav dl{

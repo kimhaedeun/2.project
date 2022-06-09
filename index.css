@@ -250,13 +250,13 @@
 
 
 .our_bestsellers{
-    height: 700px;
+    height: 900px;
     background-color: #58b5ca;
 }
 
 .our_bestsellers>.inner h3{
     max-width: 100%;
-    margin: 50px 0 0 0px;
+    margin: 0px 0 0 0px;
     padding: 80px 0 0 0;
     text-align: center;
     font-size: 11vw;
@@ -293,7 +293,7 @@
     border: 1px solid #f3f3f3; 
     font-family: "SUIT-Medium";
     display: none;
-     }
+}
     
 .our_bestsellers>.inner>#our_container>#step> span:hover {
     background: rgba(255,255,255,0.8); color:#58b5ca; 
@@ -373,7 +373,7 @@
 /*******************Our story**********/
 
 .ourstory{
-    height: 1300px;
+    height: 1400px;
     /* background-color: #58b5ca; */
     /* background-image: url(img/index/our_bg.png); */
     background-repeat: no-repeat;
@@ -435,7 +435,7 @@
     max-width: 100%;
     height: 100%;
     padding: 0px 0;
-    margin: 320px 0;
+    margin: 490px 0;
     /* border: 2px solid saddlebrown; */
     
 }
