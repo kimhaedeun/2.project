@@ -250,7 +250,7 @@
 
 
 .our_bestsellers{
-    height: 800px;
+    height: 700px;
     background-color: #58b5ca;
 }
 
@@ -372,7 +372,7 @@
 /*******************Our story**********/
 
 .ourstory{
-    height: 1500px;
+    height: 1300px;
     /* background-color: #58b5ca; */
     /* background-image: url(img/index/our_bg.png); */
     background-repeat: no-repeat;
@@ -424,7 +424,7 @@
 
 #our_wrap>.our_img img{
     max-width: 100%;
-    top: 850px;
+    top: -10px;
     right: 0;
     /* border: 1px solid saddlebrown; */
     position: absolute;
@@ -434,7 +434,7 @@
     max-width: 100%;
     height: 100%;
     padding: 0px 0;
-    margin: -100px 0;
+    margin: 320px 0;
     /* border: 2px solid saddlebrown; */
     
 }
