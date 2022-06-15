@@ -330,7 +330,7 @@ footer{
 #footer .col_2{
     max-width: 100%;
     display: flex;
-    margin: 20px 0;
+    justify-content: space-evenly;
     /* border: 5px solid navajowhite; */
 }
 
@@ -355,8 +355,7 @@ footer{
 
 #footer .col_2 .f_nav{
     max-width: 100%;
-        float: left;
-    margin: 0px 115px;
+   margin-top: 10px;
     text-align: center;
     /* border: 2px solid firebrick; */
     
@@ -371,7 +370,8 @@ footer{
 #footer .col_2 .f_sns{
     max-width: 100%;
     display: flex;
-    margin: 0px -20px;
+    justify-content:space-evenly;
+    
 }
 
 #footer .col_2 .f_nav dl{
@@ -379,9 +379,9 @@ footer{
 }
 
 #footer .col_2 .f_sns i{
+    max-width: 100%;
     font-size: 30px;
-    margin: 0 20px;
-   
+    
     
 }
 #footer .col_2 .f_sns p{
