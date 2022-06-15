@@ -446,7 +446,8 @@ a{text-decoration: none; color: #26282B;}
 .navbar_menu li{
     padding: 10px 22px;;
     font-size: 15px;
-    /* font-weight: bold; */
+    font-family: 'SUIT-Medium';
+    font-weight: bold;
     
 }
 
