@@ -1,0 +1,385 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@font-face {
+    font-family: 'SUIT-Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Heavy.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ /*******************공통 inner***************/
+
+ .inner{ 
+    max-width: 1300px; 
+    max-height: 100%;
+    margin: 0 auto;
+    border: 2px solid salmon;
+}
+
+#main-content{
+    width: 100%;
+    height: 100%;
+    border: 1px solid saddlebrown;
+}
+
+#main-content .top{
+    border: 1px solid rgb(172, 144, 125);
+    width: 100%;
+    height: 80px;
+}
+
+#section1{
+    width: 100%;
+    height: 800px;
+    border: 2px solid #999;
+}
+
+.product_flex{
+    max-width: 100%;
+    height: 800px;
+    display: flex;
+}
+#section1 #product_images_container{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#section1 #product_color_container{
+    width: 100%;
+    height: 100%;
+}
+
+#section1 .images_main{
+    max-width: 80%;
+    height: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+#section1 .images_gallery{
+    max-width: 80%;
+    height: 200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#section1 .images_main #main_img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section1 .images_main #main_img img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section1 .images_gallery .gallery_box{
+    max-width: 100%;
+    height: 150px;
+
+}
+
+#section1 .images_gallery .gallery_box ul{
+    display: flex;
+    justify-content: center;
+}
+#section1 .images_gallery .gallery_box li{
+    width: 50%;
+    max-height: 100%;
+    margin: 0 5px;
+    
+   
+}
+#section1 .images_gallery .gallery_box img{
+    max-width:100%;
+    height: 100%;
+}
+
+#section1 #product_color_container .product_box{
+    padding: 20px;
+}
+
+#section1 #product_color_container .product_box h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+#section1 #product_color_container .product_box h5{
+    text-align: center;
+    max-width: 100%;
+    border-bottom: 1px solid #4b5525;
+    border-top: 1px solid #4b5525;
+    padding: 10px;
+    color: #4b5525;
+    font-size: 12px;
+    font-family: "SUIT-Medium";
+}
+#section1 #product_color_container .product_box p{
+    font-size: 12px;
+    text-align: center;
+    margin: 30px;
+    font-family: "SUIT-Medium";
+}
+#section1 #product_color_container .color_box{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+#section1 #product_color_container .color_box fieldset{
+    margin-top: 30px;
+   max-width: 100%;;
+   max-height: 100%;
+  border: none;
+}
+#section1 #product_color_container .color_box label{
+    display: inline-block;
+    padding: 14px;
+}
+
+/**********************color box**********************/
+.color_box p{
+    width: 70px;
+    height: 100%;
+    font-size: 0.7vw;
+    color: rgb(255, 250, 241);
+    text-align: center;
+}
+.color_box .darkgrey p{
+   background-color: darkgray;
+   color: black;
+}
+.color_box .blue p{
+    background-color: blue;
+    color: #fff;
+ }
+ .color_box .brown p{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+ }
+ .color_box .fern p{
+    background-color: #4b5525;
+    color: rgb(255, 255, 255);
+ }
+ .color_box .flamingo p{
+    background-color: #f8bdd9;
+    color: rgb(255, 255, 255);
+ }
+ .color_box .lavender p{
+    background-color: #a998cd;
+    color: rgb(255, 255, 255);
+ }
+ .color_box .lightgrey p{
+    background-color: #999999;
+    color: black;
+ }
+ .color_box .mint p{
+    background-color: #dffbf3;
+    color: rgb(0, 0, 0);
+ }
+ .color_box .pink p{
+    background-color: pink;
+ }
+ .color_box .purple p{
+    background-color: purple;  
+ }
+ .color_box .rain p{
+    background-color: #c1d1e2;  
+    color: black;
+ }
+ .color_box .red p{
+    background-color: red;
+ }
+ /**********************color box end**********************/
+
+#product_color_container .color_box fieldset .all{
+    width: 70%;
+    text-align: center;
+    font-family: "SUIT-Medium";
+    font-size: 12px;
+ }
+ #product_color_container .color_box fieldset #total{
+    width: 50%;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "SUIT-Medium";
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+
+ }
+ #product_color_container #sold_box{
+    max-width: 100%;
+    max-height: 100%;
+   
+    margin: 20px 0;
+ }
+ #product_color_container #sold_box .box1{
+    width: 70%;
+    height: 50px;
+    margin: 2px auto;
+ }
+ #product_color_container #sold_box .box1 button{
+    width: 100%;
+    height: 100%;
+    background-color: #58b5ca;
+    color: rgb(238, 238, 238);
+    font-family: "SUIT-Medium";
+    border: none;
+ }
+ #product_color_container #sold_box .box1 button:hover{
+    background-color: #53abbe;
+    cursor: pointer;
+ }
+ #product_color_container #sold_box .box2{
+    max-width: 70%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+
+ }
+ #product_color_container #sold_box .box2 button{
+   width: 100%;
+   font-family: "SUIT-Medium";
+   border: none;
+   margin-inline: 1px;
+   border: 1px solid #53abbe;
+ }
+ #product_color_container #sold_box .box2 button:hover{
+    border: 1 px solid #5f5f5f;
+    cursor: pointer;
+ }
+
+
+ /**********************section2**********************/
+#section2{
+    width: 100%;
+    height: 100px;
+}
+
+ #section_end{
+    width: 80%;
+    margin: 0 auto;
+ }
+ #section2 #product_detail{
+    width:100%;
+    height: 100%;
+
+ }
+ #section2 #product_detail ul{
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    font-size: 15px;
+    color: #4b5525;
+ }
+
+ #section2 #product_detail ul li{
+    margin: 20px;
+    
+ }
+ #section2 #product_detail ul li:hover{
+   border-bottom: 2px solid #53abbe;
+    
+ }
+
+ /**********************section3**********************/
+ #section3{
+    width: 100%;
+    height: 3300px;
+ }
+
+ #section3 .detail_box{
+    width: 100%;
+    max-height: 100%;
+    margin: 70px 0;
+    border: 2px solid darkblue;
+ }
+ #section3 .detail_box .detail_main{
+    max-width: 60%;
+    height: 50%;
+    margin: 0 auto;
+ }
+ #section3 .detail_box .detail_main img{
+    width: 100%;
+    height: 100%;
+ }
+ #section3 .detail_box h1{
+    margin: 50px 0;
+    width: 100%;
+    text-align: center;
+ }
+ #section3 .detail_box .detail_sub{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+ }
+ #section3 .detail_box .detail_sub img{
+    width: 100%;
+    height: 100%;
+ }
+ #section3 .detail_box h2{
+    margin-top: 50px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    font-family: "SUIT-Medium";
+ }
+ #section3 .detail_box p{
+    width: 100%;
+    font-size: 15px;
+    margin: 10px 0 50px 0;
+    text-align: center;
+    font-family: "SUIT-Medium";
+ }
+
+ 
+ /**********************section4**********************/
+ #section4{
+    width: 100%;
+    height: 2000px;
+    font-family: "SUIT-Medium";
+    
+ }
+
+ #section4 h2{
+    width: 50%;
+    margin: 80px auto;
+    text-align: center;
+    font-size: 2vw;
+    border-top: 1px solid #4b5525;
+    border-bottom: 1px solid #4b5525;
+    padding: 10px;
+ }
+
+ #section4 #color_slide{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+ }
+
+
+ #section4 #color_slide .container{
+    max-width: 30%;
+    max-height: 15%;
+    margin: 5px auto;
+ }
+ #section4 #color_slide .container img{
+    width: 100%;
+    height: 100%;
+
+ }
+ 

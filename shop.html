@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="main_media.css">
+    <link rel="stylesheet" href="shop.css">
+    <script src="https://kit.fontawesome.com/bc11f443c9.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+     <!-- INDEX ALL THEMA WRAPPER -->
+     <div id="thema_wrapper">
+
+        <!-- HEADER 헤더 부분 -->
+        <header>
+            <div id="main-header">
+                <div class="header_inner">
+                    <h1 class="logo">
+                        <a href="index.html"><img src="img/index/logo.png" alt="logo"></a>
+                    </h1>
+
+                    <div class="navbar_menu">
+                        <ul>
+                            <!--앵커(anchor)이용해서 이동-->
+                            <li><a href="#anchor1">with_Yogibo</a></li>
+                            <li><a href="#anchor2">New collabo</a></li>
+                            <li><a href="#anchor3">Yogibo space</a></li>
+                            <li><a href="#anchor4">Our Bestsellers</a></li>
+                            <li><a href="#anchor5">Our story</a></li>
+                            <li><a href="">Shop</a></li>
+                        </ul>
+                    </div>
+
+                     <!-- Toggle button -->
+                     <button class="toggle_btn" onclick="openNav()">
+                        <i class="fa-solid fa-bars"></i>
+                     </button>
+
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <ul class="overlay-content">
+                            <!--앵커(anchor)이용해서 이동-->
+                            <li><a href="#anchor1">with_Yogibo</a></li>
+                            <li><a href="#anchor2">New collabo</a></li>
+                            <li><a href="#anchor3">Yogibo space</a></li>
+                            <li><a href="#anchor4">Our Bestsellers</a></li>
+                            <li><a href="#anchor5">Our story</a></li>
+                            <li><a href="">Shop</a></li>
+                        </ul>
+                    </div>
+
+                    <ul class="navbar_icons">
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li><i class="fa-solid fa-cart-shopping"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        
+        <div id="main-content">
+            <div id="section1">
+                <div class="inner">
+                    <div class="top"></div><!--상단 여백-->
+                    <div class="product_flex">
+                       <div id="product_images_container">
+                        <div class="images_main">
+                            <div id="main_img">
+                                <img src="img/shop/roll1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="images_gallery">
+                            <div class="gallery_box">
+                                <ul>
+                                    <li><img src="img/shop/roll1.jpg" alt="roll1"></li>
+                                    <li><img src="img/shop/roll2.jpg" alt="roll2"></li>
+                                    <li><img src="img/shop/roll3.jpg" alt="roll3"></li>
+                                    <li><img src="img/shop/roll4.jpg" alt="roll4"></li>
+                                    <li><img src="img/shop/roll5.jpg" alt="roll5"></li>
+                                </ul>
+                            </div>
+                        </div>
+                       </div>
+                       <div id="product_color_container">
+                            <div class="product_box">
+                                <h1>Yogibo Roll Max</h1>
+                                <h5>롤 맥스 오리지날</h5>
+                                <p>Yogibo Max는 사용자의 신체에 완벽하게 부합하는 유일한 가구 입니다.</p>
+                            </div>
+                            <div class="color_box">
+                                <fieldset>
+                                    <legend>색상 | Color </legend>
+                                        <label for="darkgrey">
+                                            <div class="dot darkgrey" >
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>dark grey</p>
+                                            </div>
+                                        </label>
+                                        <label for="blue">
+                                            <div class="dot blue">
+                                                <input type="checkbox" name="color" class="color" value="199000">
+                                                <p>blue</p>
+                                            </div>
+                                        </label>
+                                        <label for="brown">
+                                            <div class="dot brown">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>brown</p>
+                                            </div>
+                                        </label>
+                                        <label for="fern">
+                                            <div class="dot fern">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>fern</p>
+                                            </div>
+                                        </label>
+                                        <label for="flamingo">
+                                            <div class="dot flamingo">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>flamingo</p>
+                                            </div>
+                                        </label>
+                                        <label for="lavender">
+                                            <div class="dot lavender">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>lavender</p>
+                                            </div>
+                                        </label>
+                                        <label for="light grey">
+                                            <div class="dot lightgrey">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>lightgray</p>
+                                            </div>
+                                        </label>
+                                        <label for="mint">
+                                            <div class="dot mint">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>mint</p>
+                                            </div>
+                                        </label>
+                                        <label for="pink">
+                                            <div class="dot pink">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>pink</p>
+                                            </div>
+                                        </label>
+                                        <label for="purple">
+                                            <div class="dot purple">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>purple</p>
+                                            </div>
+                                        </label>
+                                        <label for="rain">
+                                            <div class="dot rain">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>rain</p>
+                                            </div>
+                                        </label>
+                                        <label for="red">
+                                            <div class="dot red">
+                                                <input type="checkbox" class="color" value="199000">
+                                                <p>red</p>
+                                            </div>
+                                        </label>
+                                </fieldset>
+                                <fieldset>
+                                    <legend class="all">합계  <span><input type="text" id="total" name="total" class="price" readonly></span></legend>
+                                  
+                                </fieldset>
+                            </div>
+                            <div id="sold_box">
+                               <div class="box1">
+                                <button class="box1_bt">지금 바로 구매하기</button>
+                               </div>
+                               <div class="box2">
+                                <button>문의하기</button>
+                                <button>찜하기</button>
+                                <button>장바구니</button>
+                               </div>
+                                    
+                                </form>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section2">
+                <div class="inner">
+                    <hr id="section_end"><!--section1 구분선-->
+                    <div id="product_detail">
+                        <ul id="detail_list">
+                            <li><a href="#section3">DETAIL</a></li>
+                            <li><a href="#section4">Color</a></li>
+                            <li><a href="">REVIEW</a></li>
+                            <li><a href="">Q&A</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section3">
+                <div class="inner">
+                    <div class="detail_box">
+                        <div class="detail_main">
+                            <img src="img/shop/roll_max_detail_main.jpg" alt="">
+                        </div>
+                        <h1>YOGIBO ROLL MAX</h1>
+                        <div class="detail_sub">
+                            <img src="img/shop/roll_max_detail1.jpg" alt="">
+                        </div>
+                        <h2>쉽고 완벽한 청결 유지</h2>
+                        <p>옷을 빨듯이 커버만 벗겨 세탁기에 돌리면 끝!</p>
+                        <div class="detail_sub">
+                            <img src="img/shop/roll_max_detail2.jpg" alt="">
+                        </div>
+                        <h2>뛰어난 내구성</h2>
+                        <p>고무보다 3~4배 단단한 내구성을 가진 요기보에 몸을 맡기다!</p>
+                        <div class="detail_sub">
+                            <img src="img/shop/roll_max_detail3.jpg" alt="">
+                        </div>
+                        <h2>건강과 환경을 생각하는 요기보</h2>
+                        <p></p>
+                        <div class="detail_sub">
+                            <img src="img/shop/roll_max_detail4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section4">
+                <div class="inner">
+                    <h2>다양한 색상과 함께하는 YOGIBO</h2>
+                    <hr>
+                    <div id="color_slide">
+                            <div class="container">
+                                <img src="img/shop/color_blue.jpg" alt="color_blue" class="color_img">
+                            </div>
+                            <div class="container">
+                                <img src="img/shop/color_brown.jpg" alt="color_brown" class="color_img">
+                            </div>
+                            <div class="container">
+                                <img src="img/shop/color_coral.jpg" alt="color_coral" class="color_img">
+                            </div>
+                            <div class="container">
+                                <img src="img/shop/color_darkgrey.jpg" alt="color_darkgrey" class="color_img">
+                            </div>
+                            <div class="container">
+                                <img src="img/shop/color_Fern.jpg" alt="color_Fern" class="color_img">
+                            </div>
+                            <div class="container">
+                                <img src="img/shop/color_Flamingo.jpg" alt="color_Flamingo" class="color_img">
+                            </div>
+                            <div class="container">
+                                <img src="img/shop/color_Lavender.jpg" alt="color_Lavender" class="color_img">
+                            </div>
+                            <div class="container">
+                                <img src="img/shop/color_mint.jpg" alt="/color_mint" class="color_img">
+                            </div>
+                            <div class="container">
+                                <img src="img/shop/color_pink.jpg" alt="color_pink" class="color_img">
+                            </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="row">
+                    <div class="col_1">
+                        <div class="footer_logo">
+                            <img src="img/index/logo.png" alt="logo">
+                        </div>
+                        <ul>
+                            <li>브랜드스토리</li>
+                            <li>Awesome People</li>
+                            <li>파트너쉽</li>
+                            <li>채용</li>
+                            <li>이용약관</li>
+                            <li>개인정보처리방침</li>
+                        </ul>
+
+                        </dl>
+                    </div>
+                    <div class="col_2">
+                        <div class="f_nav f_nav_call">
+                            <dl>
+                                <dt>
+                                    <h2>CUSTOMER CENTER</h2>
+                                </dt>
+                                <dd>010-6244-4913</dd>
+                                <dt>
+                                    <h2>ACCOUNT INFO</h2>
+                                </dt>
+                                <dd>010-6244-4913</dd>
+                            </dl>
+                        </div>
+                        <div class="f_nav f_nav_sns">
+                            <ul class="f_sns">
+                                <li><i class="fa-brands fa-youtube"></i>
+                                    <p>youtube</p>
+                                </li>
+                                <li><i class="fa-brands fa-instagram"></i>
+                                    <p>instagram</p>
+                                </li>
+                                <li><i class="fa-brands fa-facebook"></i>
+                                    <p>facebook</p>
+                                </li>
+                                <li><i class="fa-brands fa-twitter"></i>
+                                    <p>twitter</p>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+        <!--checkbox 다중선택 합계 구하기-->
+        <script>
+            var price=0;
+
+            var color=document.querySelectorAll(".color")
+            var total =document.querySelector("#total");
+            total.value=price+"원";
+
+            for(i=0; i<color.length;i++){
+                color[i].onclick=function(){
+                    if(this.checked==true){
+                        price+=parseInt(this.value);
+                    }
+                    else{
+                        price-=parseInt(this.value);
+                    }
+                    total.value=price+"원";
+                }
+            }
+        </script>
+
+    
+    
+</body>
+</html>
