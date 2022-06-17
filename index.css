@@ -417,6 +417,10 @@
 }
 
 .ourstory>#our_bg>.inner>#our_wrap>.our_img{
+   max-width: 100%;
+}
+
+.ourstory>#our_bg>.inner>#our_wrap>.our_img{
     width: 400px;
     height: 100px;
  
