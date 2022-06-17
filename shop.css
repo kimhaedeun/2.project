@@ -80,6 +80,15 @@
    height: auto;
 }
 
+.color_box p{
+   width: 70px;
+   height: 100%;
+   font-size: 0.7vw;
+   color: rgb(255, 250, 241);
+   text-align: center;
+   padding: 10px;
+}
+
 #section3 .detail_box .detail_sub{
    max-width: 100%;
    height: auto;
@@ -217,6 +226,14 @@
 
 #section1 #product_color_container .product_box{
    padding: 0px;
+}
+
+.color_box p{
+   width: 70px;
+   height: 100%;
+   font-size: 0.7vw;
+   color: rgb(255, 250, 241);
+   text-align: center;
 }
 
 #section3{
@@ -364,6 +381,14 @@
 
 #section1 #product_color_container .product_box{
    padding: 0px;
+}
+
+.color_box p{
+   width: 70px;
+   height: 100%;
+   font-size: 0.7vw;
+   color: rgb(255, 250, 241);
+   text-align: center;
 }
 
    #section3{
@@ -574,13 +599,13 @@
 }
 
 /**********************color box**********************/
-.color_box p{
+/* .color_box p{
     width: 70px;
     height: 100%;
     font-size: 0.7vw;
     color: rgb(255, 250, 241);
     text-align: center;
-}
+} */
 .color_box .darkgrey p{
    background-color: darkgray;
    color: black;
@@ -593,10 +618,12 @@
     background-color: brown;
     color: rgb(255, 255, 255);
  }
- .color_box .fern p{
+
+ #section1 .color_box .fern p{
     background-color: #4b5525;
     color: rgb(255, 255, 255);
  }
+
  .color_box .flamingo p{
     background-color: #f8bdd9;
     color: rgb(255, 255, 255);
