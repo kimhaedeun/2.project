@@ -79,6 +79,19 @@
    max-width:100%;
    height: 100%;
 }
+
+#section3 .detail_box .detail_sub{
+   max-width: 100%;
+   height: auto;
+   margin: 0 auto;
+}
+
+#section3 .detail_box .detail_main{
+   max-width: 100%;
+   height: auto;
+   margin: 0 auto;
+}
+
 #section5 #review_box1{
    max-width: 100%;
    height: 100%;
@@ -204,76 +217,88 @@
    padding: 0px;
 }
 
-   #section3{
-      width: 100%;
-      height: auto;
-   }
-   #section4{
-      width: 100%;
-      height: auto;
-      font-family: "SUIT-Medium";
-      
-   }
-   #section5{
-      width: 100%;
-      height:auto;
-      font-family: "SUIT-Medium";
-      
-   }
-   #section5 #review_box1{
-      max-width: 100%;
-      height: 100%;
-      display: flex;
-      text-align: center;
-   }
-   #section5 .review_score{
-      width: 40%;
-      height: 200px;
-      border-right: 2px solid #4b5525;
-   }
-   #section5 .review_score h1{
-      text-align: center;
-      font-size: 50px;
-      margin-top: 20px;
-      color: #53abbe;
-   }
-   #section5 .review_score .star_n{
-      padding: 0 10px;
-      color: #303030;
-   }
+#section3{
+   width: 100%;
+   height: auto;
+}
+
+#section3 .detail_box .detail_sub{
+   width: 60%;
+   height: 100%;
+   margin: 0 auto;
+}
+
+#section3 .detail_box .detail_main{
+   max-width: 60%;
+   height: 50%;
+   margin: 0 auto;
+}
+#section4{
+   width: 100%;
+   height: auto;
+   font-family: "SUIT-Medium";
    
-   #section5 .review_score p{
-      text-align: center;
-      font-family: "SUIT-Medium";
-      font-size: 15px;
-   }
+}
+#section5{
+   width: 100%;
+   height:auto;
+   font-family: "SUIT-Medium";
    
-   #section5 .review_score button{
-      margin-top: 20px;
-      padding: 15px;
-      border: none;
-      background-color: #53abbe;
-      color: whitesmoke;
-      font-family: "SUIT-Medium";
-      cursor: pointer;
-   }
-   #section5 .review_score button:hover{
-      background-color: #4b9aac;
-   }
-   #section5 .review_summary{
-      width: 60%;
-      height: 200px;
-      text-align: center;
-   }
-   #section5 .review_summary p{
-      margin-top: 20px;
-      font-size: 25px;
-      font-family: "SUIT-Medium";
-   }
-   #section5 .review_summary .star-ratings{
-      margin: 0 auto;
-      font-size: 70px;
-   }
+}
+#section5 #review_box1{
+   max-width: 100%;
+   height: 100%;
+   display: flex;
+   text-align: center;
+}
+#section5 .review_score{
+   width: 40%;
+   height: 200px;
+   border-right: 2px solid #4b5525;
+}
+#section5 .review_score h1{
+   text-align: center;
+   font-size: 50px;
+   margin-top: 20px;
+   color: #53abbe;
+}
+#section5 .review_score .star_n{
+   padding: 0 10px;
+   color: #303030;
+}
+
+#section5 .review_score p{
+   text-align: center;
+   font-family: "SUIT-Medium";
+   font-size: 15px;
+}
+
+#section5 .review_score button{
+   margin-top: 20px;
+   padding: 15px;
+   border: none;
+   background-color: #53abbe;
+   color: whitesmoke;
+   font-family: "SUIT-Medium";
+   cursor: pointer;
+}
+#section5 .review_score button:hover{
+   background-color: #4b9aac;
+}
+#section5 .review_summary{
+   width: 60%;
+   height: 200px;
+   text-align: center;
+}
+#section5 .review_summary p{
+   margin-top: 20px;
+   font-size: 25px;
+   font-family: "SUIT-Medium";
+}
+#section5 .review_summary .star-ratings{
+   margin: 0 auto;
+   font-size: 70px;
+}
 }
 @media screen and (min-width:1200px){
 
@@ -342,6 +367,18 @@
    #section3{
     width: 100%;
     height: 3300px;
+   }
+
+   #section3 .detail_box .detail_sub{
+      width: 60%;
+      height: 100%;
+      margin: 0 auto;
+   }
+
+   #section3 .detail_box .detail_main{
+      max-width: 60%;
+      height: 50%;
+      margin: 0 auto;
    }
 
    #section5{
@@ -696,11 +733,11 @@
     margin: 70px 0;
     /* border: 2px solid darkblue; */
  }
- #section3 .detail_box .detail_main{
+ /* #section3 .detail_box .detail_main{
     max-width: 60%;
     height: 50%;
     margin: 0 auto;
- }
+ } */
  #section3 .detail_box .detail_main img{
     width: 100%;
     height: 100%;
@@ -710,11 +747,11 @@
     width: 100%;
     text-align: center;
  }
- #section3 .detail_box .detail_sub{
+ /* #section3 .detail_box .detail_sub{
     width: 60%;
     height: 100%;
     margin: 0 auto;
- }
+ } */
  #section3 .detail_box .detail_sub img{
     width: 100%;
     height: 100%;
