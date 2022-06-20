@@ -288,7 +288,7 @@
 
 .our_bestsellers>.inner>#our_container>#step> span { 
     font-size: 25px; color:#fff;
-    background: rgba(226, 226, 226, 11);
+    background: rgba(226, 226, 226, 0);
     cursor: pointer;  
     border-radius: 50%; 
     border: 1px solid #f3f3f3; 
