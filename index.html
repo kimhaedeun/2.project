@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="main_media.css">
-   
     <script src="https://kit.fontawesome.com/bc11f443c9.js" crossorigin="anonymous"></script>
-    
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
     <script src="js/index.js"></script>
 
@@ -188,7 +186,7 @@
                         </div>
                         <ul id="our_slide_wrab" class="slide">
                             <li class="our_slide">
-                                <div id="thumb"><a href="shop.html"><img src="img/index/best1.jpg" alt="best1"></a></div>
+                                <div class="thumb"><a href="shop.html"><img src="img/index/best1.jpg" alt="best1"></a></div>
                                 <dl>
                                     <dt>Yogibo Roll Max<br> <span>요기보 롤 맥스</span></dt>
                                     <dd>199,000원</dd>
@@ -196,28 +194,28 @@
                             </li>
 
                             <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/best2.jpg" alt="best2"></div>
+                                <div class="thumb"><img src="img/index/best2.jpg" alt="best2"></div>
                                 <dl>
                                     <dt>Yogibo Prime Hybrid <br><span>요기보 프라임 하이브리드</span></dt>
                                     <dd>399,000원</dd>
                                 </dl>
                             </li>
                             <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/best3.jpg" alt="best3"></div>
+                                <div class="thumb"><img src="img/index/best3.jpg" alt="best3"></div>
                                 <dl>
                                     <dt>Doggybo Midi<br><span>도기보 미디</span></dt>
                                     <dd>99,000원</dd>
                                 </dl>
                             </li>
                             <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/best4.jpg" alt="best4"></div>
+                                <div class="thumb"><img src="img/index/best4.jpg" alt="best4"></div>
                                 <dl>
                                     <dt>Yogibo Pyramid <br> <span>요기보 피라미드</span></dt>
                                     <dd>169,000</dd>
                                 </dl>
                             </li>
                             <li class="our_swiper-slide">
-                                <div id="thumb"><img src="img/index/best5.jpg" alt="best5"></div>
+                                <div class="thumb"><img src="img/index/best5.jpg" alt="best5"></div>
                                 <dl>
                                     <dt>Toy Story Alien Hugger Pro <br><span>토이스토리 알린 허거 프로</span>/dt>
                                     <dd>323,100원</dd>
@@ -253,20 +251,20 @@
                                 </div>
                                 <div class="our_list">
                                     <h3>우리의 약속</h3>
-                                    <p id="h3_p">기능적 디자인과 감각적인 경험을 더해 차별화된 느낌을 원하는 가족과 개인을 위해
+                                    <p class="h3_p">기능적 디자인과 감각적인 경험을 더해 차별화된 느낌을 원하는 가족과 개인을 위해
                                         Yogibo는 나,공간,모든이와 조화를 이룰 수 있도록 합니다.</p>
                                     <button class="our_btn"> The more</button>
                                 </div>
                                 <div class="our_list">
                                     <h3>우리의 열정</h3>
-                                    <p id="h3_p"> Yogibo 제품이 다양한 요구를 가진 사람들에게 삶의 변화를 가져다준다는 사실을 알게 되었습니다.
+                                    <p class="h3_p"> Yogibo 제품이 다양한 요구를 가진 사람들에게 삶의 변화를 가져다준다는 사실을 알게 되었습니다.
                                         Yogibo 제품의 대부분은 통증과 다양한 신체적 불편,스트레스 및 불안에 도움이 됩니다.
                                     </p>
                                     <button class="our_btn"> The more</button>
                                 </div>
                                 <div class="our_list">
                                     <h3>창립자로부터</h3>
-                                    <p id="h3_p">"Yogibo의 아이디어는 임신을 편안하게 만드는 방법을 고안하는 과정에서 시작되었습니다. 올바른 해결책을 찾고 있었고,
+                                    <p class="h3_p">"Yogibo의 아이디어는 임신을 편안하게 만드는 방법을 고안하는 과정에서 시작되었습니다. 올바른 해결책을 찾고 있었고,
                                         Yogibo의 '느낌을 발견'하여 우리 삶의 모든 측면에 가져오고자 하였습니다. 
                                     </p>
                                     <button class="our_btn"> The more</button>
@@ -274,8 +272,9 @@
                             </div>
                         </div>
                     </div>
-            </section>
+                </div>
 
+            </section>
         </div>
         <footer id="footer">
             <div class="inner">
@@ -293,19 +292,18 @@
                             <li>개인정보처리방침</li>
                         </ul>
 
-                        </dl>
                     </div>
                     <div class="col_2">
                         <div class="f_nav f_nav_call">
                             <dl>
                                 <dt>
-                                    <h2>CUSTOMER CENTER</h2>
+                                    <p> CUSTOMER CENTER </p>
                                 </dt>
                                 <dd>010-6244-4913</dd>
                                 <dt>
-                                    <h2>ACCOUNT INFO</h2>
+                                   <p> ACCOUNT INFO </p>
                                 </dt>
-                                <dd>010-6244-4913</dd>
+                                <dd> 010-6244-4913 </dd>
                             </dl>
                         </div>
                         <div class="f_nav f_nav_sns">
@@ -330,41 +328,8 @@
                 </div>
 
             </div>
-        </footer>
+        </footer>    
     </div>
-
-    <script>
-        document.getElementById('space_btn1').onclick = function () {
-        document.getElementsByClassName('img')[0].src = "img/index/content_home1.png";
-        document.getElementsByClassName('img')[1].src = "img/index/content_home2.jpg";
-        document.getElementsByClassName('img')[2].src = "img/index/content_home3.jpg";
-        document.getElementsByClassName('img')[3].src = "img/index/content_home4.jpg";
-    }
-    document.getElementById('space_btn2').onclick = function () {
-        document.getElementsByClassName('img')[0].src = "img/index/content_game1.png";
-        document.getElementsByClassName('img')[1].src = "img/index/content_game2.png";
-        document.getElementsByClassName('img')[2].src = "img/index/content_game3.png";
-        document.getElementsByClassName('img')[3].src = "img/index/content_game4.png";
-    }
-
-    document.getElementById('space_btn3').onclick = function () {
-        document.getElementsByClassName('img')[0].src = "img/index/content_office1.png";
-        document.getElementsByClassName('img')[1].src = "img/index/content_office2.png";
-        document.getElementsByClassName('img')[2].src = "img/index/content_office3.png";
-        document.getElementsByClassName('img')[3].src = "img/index/content_office4.png";
-    }
-
-    document.getElementById('space_btn4').onclick = function () {
-        document.getElementsByClassName('img')[0].src = "img/index/content_school1.jpg";
-        document.getElementsByClassName('img')[1].src = "img/index/content_school2.png";
-        document.getElementsByClassName('img')[2].src = "img/index/content_school3.png";
-        document.getElementsByClassName('img')[3].src = "img/index/content_school4.png";
-    }
-
-    </script>
-    
-    
-
 </body>
 
 </html>
